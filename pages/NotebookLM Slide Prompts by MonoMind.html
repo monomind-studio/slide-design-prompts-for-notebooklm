@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Slide DesignPrompts | MonoMind</title>
+  <title>Slide Design Prompts | MonoMind</title>
   <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16672,8 +16672,15 @@ Apply this style consistently across all slides for a cohesive, professional sli
         </button>
       </div>` : '';
 
+      const tocHTML = `
+      <div class="fixed right-6 top-32 hidden lg:flex flex-col gap-3 w-56 max-h-[70vh] overflow-y-auto bg-black/40 backdrop-blur-md p-6 border border-white/10 rounded-2xl z-50 shadow-2xl">
+        <span class="text-[10px] uppercase tracking-widest font-bold text-white/40 mb-2 border-b border-white/10 pb-2">Table of Contents</span>
+        ${designs.map((d, i) => `<a href="javascript:void(0)" class="text-xs text-white/60 hover:text-white transition-colors truncate block" onclick="document.getElementById('prompt-card-${i}').scrollIntoView({behavior:'smooth'})">${i + 1}. ${d.name}</a>`).join('')}
+      </div>`;
+
       promptArea.innerHTML = `
-      <div class="mb-32 animate-in slide-in-from-bottom duration-700">
+      ${tocHTML}
+      <div class="mb-32 animate-in slide-in-from-bottom duration-700 lg:pr-72">
         ${backButtonHTML}
         <div class="flex items-center gap-4 text-[10px] uppercase tracking-[0.3em] font-bold text-white/30 mb-6 font-sans">
           <span>${subtitle}</span>
@@ -16683,7 +16690,7 @@ Apply this style consistently across all slides for a cohesive, professional sli
         <h2 class="text-6xl md:text-8xl font-bold tracking-tighter mb-8 font-sans">${title}</h2>
         <div class="w-24 h-[1px] bg-white/20"></div>
       </div>
-      <div id="promptGrid" class="flex flex-col gap-24 pb-48"></div>
+      <div id="promptGrid" class="flex flex-col gap-24 pb-48 lg:pr-72"></div>
     `;
 
       const grid = document.getElementById('promptGrid');
@@ -16691,6 +16698,7 @@ Apply this style consistently across all slides for a cohesive, professional sli
       designs.forEach((design, i) => {
         const num = (i + 1).toString().padStart(2, '0');
         const card = document.createElement('div');
+        card.id = `prompt-card-${i}`;
         card.className = "group relative p-8 lg:p-12 border border-brand-border hover:bg-white/[0.04] transition-all duration-700 overflow-hidden rounded-3xl animate-in slide-in-from-bottom duration-700";
         card.style.animationDelay = `${i * 100}ms`;
 
