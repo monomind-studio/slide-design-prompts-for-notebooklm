@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MonoMind | Retail</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .serif {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .grid-cell {
+            border: 0.5px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .grid-cell:hover {
+            background-color: rgba(255, 255, 255, 0.03);
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .nav-scrolled {
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+    </style>
+</head>
+
+<body class="overflow-x-hidden">
+    <nav class="fixed top-0 w-full z-50 px-6 py-6 flex justify-between items-center nav-scrolled">
+        <div class="h-6 flex items-center gap-2 cursor-pointer transition-opacity hover:opacity-80"
+            onclick="window.parent !== window ? window.parent.postMessage({type: 'SHOW_HOME'}, '*') : window.location.href='NotebookLM Slide Prompts by MonoMind.html'">
+            <img src="../assets/logo.svg" alt="Monomind" class="h-full" onerror="this.style.display='none'">
+            <span class="text-xl font-black tracking-tighter uppercase">monomind</span>
+        </div>
+        <div>
+            <span class="text-[10px] uppercase tracking-widest text-white/50">Retail Category</span>
+        </div>
+    </nav>
+
+    <main class="pt-32 pb-24 px-6 md:px-12 max-w-7xl mx-auto">
+        <div class="mb-16">
+            <span class="text-xs uppercase tracking-[0.4em] text-white/40 mb-4 block">Category Series</span>
+            <h1 class="text-5xl md:text-7xl font-bold tracking-tight mb-8">
+                🛍️ <br>
+                <span class="serif italic text-white/90">Retail</span> Prompts
+            </h1>
+            <p class="max-w-2xl text-lg text-white/60 font-light leading-relaxed">
+                Discover our curated selection of premium presentation prompts tailored exclusively for the Retail
+                sector. Unleash the potential of your ideas with Monomind aesthetics.
+            </p>
+        </div>
+
+        <h3 class="text-xs uppercase tracking-[0.3em] font-bold text-white/40 mb-8 border-b border-white/10 pb-4">
+            Sub-categories</h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+            <div class="grid-cell p-8 flex flex-col justify-between min-h-[250px] relative group cursor-pointer"
+                onclick="window.parent.postMessage({type: 'SELECT_INDUSTRY', catId: 'retail', industryName: 'Convenience Stores'}, '*')">
+                <div>
+                    <h4 class="text-2xl font-bold mb-3 group-hover:tracking-tight transition-all duration-500">Convenience Stores</h4>
+                    <p class="text-white/40 font-light text-sm">Professional framework</p>
+                </div>
+                <div
+                    class="flex justify-between items-center text-[10px] uppercase tracking-widest text-white/30 group-hover:text-white transition-colors">
+                    <span>Explore</span><span>→</span>
+                </div>
+            </div>
+
+            <div class="grid-cell p-8 flex flex-col justify-between min-h-[250px] relative group cursor-pointer"
+                onclick="window.parent.postMessage({type: 'SELECT_INDUSTRY', catId: 'retail', industryName: 'Department Stores'}, '*')">
+                <div>
+                    <h4 class="text-2xl font-bold mb-3 group-hover:tracking-tight transition-all duration-500">Department Stores</h4>
+                    <p class="text-white/40 font-light text-sm">Professional framework</p>
+                </div>
+                <div
+                    class="flex justify-between items-center text-[10px] uppercase tracking-widest text-white/30 group-hover:text-white transition-colors">
+                    <span>Explore</span><span>→</span>
+                </div>
+            </div>
+
+            <div class="grid-cell p-8 flex flex-col justify-between min-h-[250px] relative group cursor-pointer"
+                onclick="window.parent.postMessage({type: 'SELECT_INDUSTRY', catId: 'retail', industryName: 'E-commerce'}, '*')">
+                <div>
+                    <h4 class="text-2xl font-bold mb-3 group-hover:tracking-tight transition-all duration-500">E-commerce
+                    </h4>
+                    <p class="text-white/40 font-light text-sm">Professional framework</p>
+                </div>
+                <div
+                    class="flex justify-between items-center text-[10px] uppercase tracking-widest text-white/30 group-hover:text-white transition-colors">
+                    <span>Explore</span><span>→</span>
+                </div>
+            </div>
+
+            <div class="grid-cell p-8 flex flex-col justify-between min-h-[250px] relative group cursor-pointer"
+                onclick="window.parent.postMessage({type: 'SELECT_INDUSTRY', catId: 'retail', industryName: 'Franchises'}, '*')">
+                <div>
+                    <h4 class="text-2xl font-bold mb-3 group-hover:tracking-tight transition-all duration-500">Franchises
+                    </h4>
+                    <p class="text-white/40 font-light text-sm">Professional framework</p>
+                </div>
+                <div
+                    class="flex justify-between items-center text-[10px] uppercase tracking-widest text-white/30 group-hover:text-white transition-colors">
+                    <span>Explore</span><span>→</span>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>

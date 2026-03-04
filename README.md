@@ -1,0 +1,21 @@
+# Slide Design Prompts for NotebookLM
+
+A comprehensive library of 315+ expertly crafted slide design prompts for Google's NotebookLM and other LLMs. Created by **MonoMind by 1TM**, this repository provides specific layout instructions to help AI automatically generate styled, well-structured presentations perfectly aligned with a desired aesthetic format.
+
+## Demo
+
+Open `pages/NotebookLM Slide Prompts by MonoMind.html` in any modern web browser to interact with the full premium library UI.
+
+## Features
+
+- **315+ Expert Prompts**: Categorized across 12 distinct industries (IT, Healthcare, Finance, Construction, Fashion, etc.).
+- **Adaptive Layout Structure**: Each prompt dictates NotebookLM to build slides flexibly according to content generation needs.
+- **Generator Utility**: Use the included Claude Code Skill or Google Gems instructions to automatically reverse-engineer your *own* existing presentations into brand-new NotebookLM prompts!
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use these prompts and code for both personal and commercial use.
+
+---
+
+*© 2026 MONOMIND by 1TM, The Artificial Intelligence Agency*
