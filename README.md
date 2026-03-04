@@ -18,4 +18,4 @@ This project is licensed under the [MIT License](LICENSE). You are free to use t
 
 ---
 
-*© 2026 MONOMIND by 1TM, The Artificial Intelligence Agency*
+*© 2026 MONOMIND by 1TM, The AI Agency*
