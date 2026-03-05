@@ -35,21 +35,25 @@ const htmlTemplate = `<!DOCTYPE html>
         ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.3); }
 
         .copy-btn {
-            position: absolute;
-            top: 1rem;
-            right: 1rem;
-            background: rgba(255, 255, 255, 0.1);
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: #2563eb;
+            border: none;
             color: white;
-            padding: 8px 16px;
-            border-radius: 4px;
-            font-size: 12px;
+            padding: 6px 16px;
+            border-radius: 9999px;
+            font-size: 10px;
+            font-weight: 700;
             text-transform: uppercase;
-            letter-spacing: 0.1em;
+            letter-spacing: 0.12em;
             cursor: pointer;
-            transition: all 0.3s ease;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            white-space: nowrap;
         }
-        .copy-btn:hover { background: rgba(255, 255, 255, 0.2); }
+        .copy-btn:hover { 
+            background: #1d4ed8;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+        }
+        .copy-btn:active { transform: translateY(0); }
     </style>
 </head>
 <body class="overflow-x-hidden">
@@ -68,14 +72,16 @@ const htmlTemplate = `<!DOCTYPE html>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
                 <!-- Claude Prompt -->
                 <div class="border border-white/10 rounded-2xl bg-white/[0.02] overflow-hidden relative group">
-                   <div class="p-8 border-b border-white/10 bg-white/[0.03]">
-                       <h2 class="text-2xl font-bold mb-2 flex items-center gap-3">
-                           <span class="w-3 h-3 rounded-full bg-[#d97757]"></span> 
-                           Claude System Prompt
-                       </h2>
-                       <p class="text-sm text-white/50">Optimized for Claude Projects or Code</p>
-                   </div>
-                   <button class="copy-btn" onclick="copyText('claude-content', this)">Copy Prompt</button>
+                    <div class="p-8 border-b border-white/10 bg-white/[0.03] flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
+                        <div class="flex-1">
+                            <h2 class="text-2xl font-bold mb-2 flex items-center gap-3">
+                                <span class="w-3 h-3 rounded-full bg-[#d97757]"></span> 
+                                Claude System Prompt
+                            </h2>
+                            <p class="text-sm text-white/50 leading-tight">Optimized for Claude Projects or Code</p>
+                        </div>
+                        <button class="copy-btn shrink-0 self-start sm:self-auto" onclick="copyText('claude-content', this)">Copy Prompt</button>
+                    </div>
                    <div class="p-8 h-[600px] overflow-y-auto custom-scrollbar relative">
                        <!-- We use JS to populate so formatting is preserved -->
                        <pre id="claude-content" class="text-xs text-zinc-400 whitespace-pre-wrap font-mono leading-relaxed"></pre>
@@ -84,14 +90,16 @@ const htmlTemplate = `<!DOCTYPE html>
 
                 <!-- Gems Prompt -->
                 <div class="border border-white/10 rounded-2xl bg-white/[0.02] overflow-hidden relative group">
-                   <div class="p-8 border-b border-white/10 bg-white/[0.03]">
-                       <h2 class="text-2xl font-bold mb-2 flex items-center gap-3">
-                           <span class="w-3 h-3 rounded-full bg-[#4285F4]"></span> 
-                           Google Gems Instruction
-                       </h2>
-                       <p class="text-sm text-white/50">Optimized for Gems Custom Instructions</p>
-                   </div>
-                   <button class="copy-btn" onclick="copyText('gems-content', this)">Copy Prompt</button>
+                    <div class="p-8 border-b border-white/10 bg-white/[0.03] flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
+                        <div class="flex-1">
+                            <h2 class="text-2xl font-bold mb-2 flex items-center gap-3">
+                                <span class="w-3 h-3 rounded-full bg-[#4285F4]"></span> 
+                                Google Gems Instruction
+                            </h2>
+                            <p class="text-sm text-white/50 leading-tight">Optimized for Gems Custom Instructions</p>
+                        </div>
+                        <button class="copy-btn shrink-0 self-start sm:self-auto" onclick="copyText('gems-content', this)">Copy Prompt</button>
+                    </div>
                    <div class="p-8 h-[600px] overflow-y-auto custom-scrollbar relative">
                        <pre id="gems-content" class="text-xs text-zinc-400 whitespace-pre-wrap font-mono leading-relaxed"></pre>
                    </div>
@@ -120,8 +128,10 @@ const htmlTemplate = `<!DOCTYPE html>
                 btn.style.color = 'black';
                 setTimeout(() => {
                     btn.innerText = originalText;
-                    btn.style.background = 'rgba(255, 255, 255, 0.1)';
+                    btn.style.background = '#2563eb';
                     btn.style.color = 'white';
+                    btn.style.boxShadow = 'none';
+                    btn.style.transform = 'translateY(0)';
                 }, 2000);
             });
         }
