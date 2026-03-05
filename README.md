@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="assets/monomind.png" alt="MonoMind" width="600">
-</p>
 
 # Slide Design Prompts for NotebookLM
 
@@ -17,9 +14,8 @@ Open `pages/NotebookLM Slide Prompts by MonoMind.html` in any modern web browser
 - **Adaptive Layout Structure**: Each prompt dictates NotebookLM to build slides flexibly according to content generation needs.
 - **Generator Utility**: Use the included Claude Code Skill or Google Gems instructions to automatically reverse-engineer your *own* existing presentations into brand-new NotebookLM prompts!
 
-## Links
+## About Us
 
-- **Slide Design Prompts Library**: [sdp.monomind.one](https://sdp.monomind.one)
 - **Company Website**: [monomind.one](https://monomind.one)
 - **Service Portfolio**: [Service Portfolio](https://share.monomind.one/monomind-our-services)
 
@@ -30,3 +26,7 @@ This project is licensed under the [MIT License](LICENSE). You are free to use t
 ---
 
 *© 2026 MONOMIND by 1TM, The AI Agency*
+
+<p align="center">
+  <img src="assets/monomind.png" alt="MonoMind" width="600">
+</p>
