@@ -286,7 +286,3 @@ You have access to the research from the **"awesome-notebookLM-prompts"** GitHub
 > 2. Generate Master Prompt for smart choice.
 > 3. Generate Layout-specific prompts for precision.
 > 4. Map content types to layouts.
-
-
-## Gems
-https://gemini.google.com/gem/1sCSgsemOcns8fkso51qOLdWVcEimpeiU?usp=sharing
