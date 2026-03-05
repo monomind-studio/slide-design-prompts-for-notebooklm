@@ -77,7 +77,7 @@
 
     <!-- Sidebar -->
     <aside id="sidebar"
-      class="w-72 md:w-80 border-r border-brand-border flex flex-col bg-black/95 backdrop-blur-xl absolute inset-y-0 left-0 z-50 transform -translate-x-full transition-transform duration-300 ease-in-out shadow-2xl">
+      class="w-full md:w-80 border-r border-brand-border flex flex-col bg-black/95 backdrop-blur-xl absolute inset-y-0 left-0 z-50 transform -translate-x-full transition-transform duration-300 ease-in-out shadow-2xl">
       <div class="p-4 md:p-6 border-b border-brand-border flex justify-between items-center">
         <h3 class="text-[10px] uppercase tracking-[0.2em] font-bold text-white/40">Select Industry</h3>
         <button onclick="toggleSidebar()" class="text-white/40 hover:text-white transition-colors focus:outline-none">
@@ -16510,10 +16510,10 @@ Apply this style consistently across all slides for a cohesive, professional sli
       isSidebarOpen = !isSidebarOpen;
       if (isSidebarOpen) {
         sidebarElement.classList.remove('-translate-x-full');
-        contentArea.classList.add('ml-72', 'md:ml-80');
+        contentArea.classList.add('md:ml-80');
       } else {
         sidebarElement.classList.add('-translate-x-full');
-        contentArea.classList.remove('ml-72', 'md:ml-80');
+        contentArea.classList.remove('md:ml-80');
       }
     }
 
@@ -16800,6 +16800,36 @@ Apply this style consistently across all slides for a cohesive, professional sli
         }, 300);
       }
     }
+  </script>
+  <script>
+    // Auto-close sidebar on mobile when a menu item is clicked
+    document.addEventListener('click', function (e) {
+      if (window.innerWidth < 768) {
+        // Find if a button or link that triggers page change was clicked
+        // .industry-btn for industries, and anything calling loadCategoryPage, handleBestDesigns, loadAboutPage, showHome, etc.
+        const isActionBtn = e.target.closest('.industry-btn') ||
+          (e.target.hasAttribute('onclick') && (
+            e.target.getAttribute('onclick').includes('loadCategoryPage') ||
+            e.target.getAttribute('onclick').includes('handleBestDesigns') ||
+            e.target.getAttribute('onclick').includes('loadAboutPage') ||
+            e.target.getAttribute('onclick').includes('showHome') ||
+            e.target.getAttribute('onclick').includes('loadGeneratorPage') ||
+            e.target.getAttribute('onclick').includes('handleVipCat')
+          )) ||
+          e.target.closest('[onclick*="loadCategoryPage"]') ||
+          e.target.closest('[onclick*="handleBestDesigns"]') ||
+          e.target.closest('[onclick*="showHome"]');
+
+        const sidebarEl = document.getElementById('sidebar');
+        // if an action button was clicked and sidebar is currently open
+        if (isActionBtn && sidebarEl && !sidebarEl.classList.contains('-translate-x-full')) {
+          // Short delay to allow visual feedback before sliding out
+          setTimeout(function () {
+            toggleSidebar();
+          }, 50);
+        }
+      }
+    });
   </script>
 </body>
 
