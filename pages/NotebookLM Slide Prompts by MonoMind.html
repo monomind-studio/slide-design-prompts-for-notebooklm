@@ -199,7 +199,7 @@
       </div>
 
       <!-- Prompts Display -->
-      <div id="promptArea" class="hidden p-12 lg:p-24 max-w-7xl mx-auto">
+      <div id="promptArea" class="hidden p-6 md:p-12 lg:p-20 xl:p-24 max-w-[1600px] mx-auto">
         <!-- Rendered by JS -->
       </div>
 
@@ -16673,14 +16673,40 @@ Apply this style consistently across all slides for a cohesive, professional sli
       </div>` : '';
 
       const tocHTML = `
-      <div class="fixed right-6 top-32 hidden lg:flex flex-col gap-3 w-56 max-h-[70vh] overflow-y-auto bg-black/40 backdrop-blur-md p-6 border border-white/10 rounded-2xl z-50 shadow-2xl">
+      <!-- Desktop TOC -->
+      <div class="fixed right-6 top-32 hidden xl:flex flex-col gap-3 w-64 max-h-[70vh] overflow-y-auto bg-black/40 backdrop-blur-md p-6 border border-white/10 rounded-2xl z-50 shadow-2xl">
         <span class="text-[10px] uppercase tracking-widest font-bold text-white/40 mb-2 border-b border-white/10 pb-2">Table of Contents</span>
         ${designs.map((d, i) => `<a href="javascript:void(0)" class="text-xs text-white/60 hover:text-white transition-colors truncate block" onclick="document.getElementById('prompt-card-${i}').scrollIntoView({behavior:'smooth'})">${i + 1}. ${d.name}</a>`).join('')}
-      </div>`;
+      </div>
+      
+      <!-- Mobile TOC Floating Button -->
+      <div class="fixed bottom-8 right-8 z-[60] xl:hidden">
+        <button onclick="toggleMobileTOC()" class="w-14 h-14 bg-blue-600 text-white rounded-full shadow-2xl flex items-center justify-center hover:bg-blue-700 transition-all active:scale-95">
+          <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /></svg>
+        </button>
+      </div>
+
+      <!-- Mobile TOC Bottom Sheet -->
+      <div id="mobileTOC" class="fixed inset-0 z-[70] hidden xl:hidden">
+        <div class="absolute inset-0 bg-black/60 backdrop-blur-sm" onclick="toggleMobileTOC()"></div>
+        <div class="absolute bottom-0 left-0 right-0 bg-zinc-900 border-t border-white/10 rounded-t-3xl p-8 max-h-[80vh] overflow-y-auto transform translate-y-full transition-transform duration-300 ease-out shadow-2xl">
+          <div class="w-12 h-1.5 bg-white/10 rounded-full mx-auto mb-8"></div>
+          <h3 class="text-sm font-bold tracking-widest uppercase text-white/40 mb-6 pb-4 border-b border-white/10">Prompt Index</h3>
+          <div class="space-y-4">
+            ${designs.map((d, i) => `
+              <a href="javascript:void(0)" class="flex items-center gap-4 text-white/70 hover:text-white p-4 rounded-xl border border-white/5 active:bg-white/5" onclick="toggleMobileTOC(); document.getElementById('prompt-card-${i}').scrollIntoView({behavior:'smooth'})">
+                <span class="text-[10px] font-bold text-white/20">${(i + 1).toString().padStart(2, '0')}</span>
+                <span class="text-sm font-medium">${d.name}</span>
+              </a>
+            `).join('')}
+          </div>
+        </div>
+      </div>
+      `;
 
       promptArea.innerHTML = `
       ${tocHTML}
-      <div class="mb-32 animate-in slide-in-from-bottom duration-700 lg:pr-72">
+      <div class="mb-32 animate-in slide-in-from-bottom duration-700 xl:pr-80">
         ${backButtonHTML}
         <div class="flex items-center gap-4 text-[10px] uppercase tracking-[0.3em] font-bold text-white/30 mb-6 font-sans">
           <span>${subtitle}</span>
@@ -16690,7 +16716,7 @@ Apply this style consistently across all slides for a cohesive, professional sli
         <h2 class="text-6xl md:text-8xl font-bold tracking-tighter mb-8 font-sans">${title}</h2>
         <div class="w-24 h-[1px] bg-white/20"></div>
       </div>
-      <div id="promptGrid" class="flex flex-col gap-24 pb-48 lg:pr-72"></div>
+      <div id="promptGrid" class="flex flex-col gap-24 pb-48 xl:pr-80"></div>
     `;
 
       const grid = document.getElementById('promptGrid');
@@ -16708,24 +16734,24 @@ Apply this style consistently across all slides for a cohesive, professional sli
           ${num}
         </div>
 
-        <div class="relative z-10 flex flex-col lg:flex-row gap-12 items-start justify-between">
-          <div class="lg:max-w-xs shrink-0 pt-2 lg:sticky lg:top-24">
+        <div class="relative z-10 flex flex-col xl:flex-row gap-12 items-start justify-between">
+          <div class="xl:w-72 shrink-0 pt-2 xl:sticky xl:top-24">
             <div class="text-[10px] uppercase tracking-widest font-bold text-white/40 mb-2 font-sans">${design.type}</div>
-            <h3 class="text-3xl font-bold tracking-tight mb-4 group-hover:text-white transition-colors font-sans">${design.name}</h3>
+            <h3 class="text-2xl md:text-3xl font-bold tracking-tight mb-4 group-hover:text-white transition-colors font-sans">${design.name}</h3>
             <div class="flex gap-2 mb-8">
               ${design.colors.map(c => `<div class="w-4 h-4 rounded-full border border-white/10" style="background:${c}"></div>`).join('')}
             </div>
-            <button onclick="copyPrompt('${i}', this)" class="inline-flex items-center gap-2 px-6 py-3 border border-white/20 text-[10px] font-bold uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-300 rounded-full group/btn font-sans">
+            <button onclick="copyPrompt('${i}', this)" class="inline-flex items-center gap-2 px-6 py-3 border border-white/20 text-[10px] font-bold uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-300 rounded-full group/btn font-sans w-full md:w-auto justify-center md:justify-start">
               <svg class="w-3 h-3 group-hover/btn:scale-110 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
               Copy Prompt
             </button>
           </div>
 
           <div class="flex-1 w-full relative">
-            <div class="absolute top-0 right-0 p-4 opacity-0 group-hover:opacity-100 transition-opacity">
+            <div class="absolute top-0 right-0 p-4 opacity-0 group-hover:opacity-100 transition-opacity hidden md:block">
               <span class="text-[10px] uppercase tracking-widest font-bold text-white/20 italic font-serif">MonoMind Asset</span>
             </div>
-            <pre id="pt-${i}" class="font-sans text-sm md:text-base text-white/70 leading-relaxed whitespace-pre-wrap font-light p-8 lg:p-10 bg-white/[0.02] border border-brand-border rounded-2xl group-hover:bg-white/[0.04] transition-all duration-700 border-white/5">${escapeHtml(design.prompt)}</pre>
+            <pre id="pt-${i}" class="font-sans text-xs sm:text-sm md:text-base text-white/70 leading-relaxed whitespace-pre-wrap font-light p-6 md:p-8 lg:p-10 bg-white/[0.02] border border-brand-border rounded-2xl group-hover:bg-white/[0.04] transition-all duration-700 border-white/5">${escapeHtml(design.prompt)}</pre>
           </div>
         </div>
       `;
@@ -16750,6 +16776,23 @@ Apply this style consistently across all slides for a cohesive, professional sli
 
     function escapeHtml(text) {
       return text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    }
+
+    function toggleMobileTOC() {
+      const modal = document.getElementById('mobileTOC');
+      const sheet = modal.querySelector('div:nth-child(2)');
+      
+      if (modal.classList.contains('hidden')) {
+        modal.classList.remove('hidden');
+        setTimeout(() => {
+          sheet.classList.remove('translate-y-full');
+        }, 10);
+      } else {
+        sheet.classList.add('translate-y-full');
+        setTimeout(() => {
+          modal.classList.add('hidden');
+        }, 300);
+      }
     }
   </script>
 </body>
