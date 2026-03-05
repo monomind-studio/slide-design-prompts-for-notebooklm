@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/monomind.png" alt="MonoMind" width="600">
+</p>
+
 # Slide Design Prompts for NotebookLM
 
 A comprehensive library of 315+ expertly crafted slide design prompts for Google's NotebookLM and other LLMs. Created by **MonoMind by 1TM**, this repository provides specific layout instructions to help AI automatically generate styled, well-structured presentations perfectly aligned with a desired aesthetic format.
@@ -5,6 +9,7 @@ A comprehensive library of 315+ expertly crafted slide design prompts for Google
 ## Demo
 
 Open `pages/NotebookLM Slide Prompts by MonoMind.html` in any modern web browser to interact with the full premium library UI.
+**Slide Design Prompts Library**: [sdp.monomind.one](https://sdp.monomind.one)
 
 ## Features
 
@@ -14,7 +19,7 @@ Open `pages/NotebookLM Slide Prompts by MonoMind.html` in any modern web browser
 
 ## Links
 
-- **Official Website**: [sdp.monomind.one](https://sdp.monomind.one)
+- **Slide Design Prompts Library**: [sdp.monomind.one](https://sdp.monomind.one)
 - **Company Website**: [monomind.one](https://monomind.one)
 - **Service Portfolio**: [Service Portfolio](https://share.monomind.one/monomind-our-services)
 
