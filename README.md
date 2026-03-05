@@ -12,6 +12,12 @@ Open `pages/NotebookLM Slide Prompts by MonoMind.html` in any modern web browser
 - **Adaptive Layout Structure**: Each prompt dictates NotebookLM to build slides flexibly according to content generation needs.
 - **Generator Utility**: Use the included Claude Code Skill or Google Gems instructions to automatically reverse-engineer your *own* existing presentations into brand-new NotebookLM prompts!
 
+## Links
+
+- **Official Website**: [sdp.monomind.one](https://sdp.monomind.one)
+- **Company Website**: [monomind.one](https://monomind.one)
+- **Service Portfolio**: [Service Portfolio](https://share.monomind.one/monomind-our-services)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE). You are free to use these prompts and code for both personal and commercial use.
