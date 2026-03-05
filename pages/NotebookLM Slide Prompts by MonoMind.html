@@ -16674,22 +16674,22 @@ Apply this style consistently across all slides for a cohesive, professional sli
 
       const tocHTML = `
       <!-- Desktop TOC -->
-      <aside class="hidden xl:block w-64 shrink-0">
+      <aside class="hidden min-[1400px]:block w-64 shrink-0">
         <div class="sticky top-32 flex flex-col gap-3 max-h-[70vh] overflow-y-auto bg-black/40 backdrop-blur-md p-6 border border-white/10 rounded-2xl shadow-2xl custom-scrollbar">
           <span class="text-[10px] uppercase tracking-widest font-bold text-white/40 mb-2 border-b border-white/10 pb-2">Table of Contents</span>
           ${designs.map((d, i) => `<a href="javascript:void(0)" class="text-xs text-white/60 hover:text-white transition-colors truncate block" onclick="document.getElementById('prompt-card-${i}').scrollIntoView({behavior:'smooth'})">${i + 1}. ${d.name}</a>`).join('')}
         </div>
       </aside>
       
-      <!-- Mobile TOC Floating Button -->
-      <div class="fixed bottom-8 right-8 z-[60] xl:hidden">
+      <!-- Mobile TOC Floating Button (Threshold: 1400px) -->
+      <div class="fixed bottom-8 right-8 z-[60] min-[1400px]:hidden">
         <button onclick="toggleMobileTOC()" class="w-14 h-14 bg-blue-600 text-white rounded-full shadow-2xl flex items-center justify-center hover:bg-blue-700 transition-all active:scale-95">
           <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /></svg>
         </button>
       </div>
 
       <!-- Mobile TOC Bottom Sheet -->
-      <div id="mobileTOC" class="fixed inset-0 z-[70] hidden xl:hidden">
+      <div id="mobileTOC" class="fixed inset-0 z-[70] hidden min-[1400px]:hidden">
         <div class="absolute inset-0 bg-black/60 backdrop-blur-sm" onclick="toggleMobileTOC()"></div>
         <div class="absolute bottom-0 left-0 right-0 bg-zinc-900 border-t border-white/10 rounded-t-3xl p-8 max-h-[80vh] overflow-y-auto transform translate-y-full transition-transform duration-300 ease-out shadow-2xl">
           <div class="w-12 h-1.5 bg-white/10 rounded-full mx-auto mb-8"></div>
@@ -16707,7 +16707,7 @@ Apply this style consistently across all slides for a cohesive, professional sli
       `;
 
       promptArea.innerHTML = `
-      <div class="flex flex-col xl:flex-row gap-12 items-start relative">
+      <div class="flex flex-col min-[1400px]:flex-row gap-12 relative">
         <div class="flex-1 w-full min-w-0">
           <div class="mb-32 animate-in slide-in-from-bottom duration-700">
             ${backButtonHTML}
