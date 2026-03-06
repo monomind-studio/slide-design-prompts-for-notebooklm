@@ -55,6 +55,17 @@ const htmlTemplate = `<!DOCTYPE html>
         }
         .copy-btn:active { transform: translateY(0); }
     </style>
+
+    <meta name="description" content="Upgrade your NotebookLM slide output with our curated library of premium slide design prompts. Select an industry to begin.">
+    <meta property="og:title" content="Slide Design Prompts | MonoMind">
+    <meta property="og:description" content="Upgrade your NotebookLM slide output with our curated library of premium slide design prompts.">
+    <meta property="og:image" content="https://prompts.monomind.one/assets/monomind.png">
+    <meta property="og:url" content="https://prompts.monomind.one/">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Slide Design Prompts | MonoMind">
+    <meta name="twitter:description" content="Upgrade your NotebookLM slide output with our curated library of premium slide design prompts.">
+    <meta name="twitter:image" content="https://prompts.monomind.one/assets/monomind.png">
 </head>
 <body class="overflow-x-hidden">
     <nav class="w-full z-50 px-6 md:px-12 py-8 flex justify-between items-center">
