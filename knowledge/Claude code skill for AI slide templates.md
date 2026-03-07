@@ -1,14 +1,14 @@
 ---
-name: AI Slide Generator-slide-style-from-deck
+name: slide-design-from-decks
 description: >
   Analyze slide decks (PDFs or screenshots) to extract their full visual design system
   and generate AI-ready slide style prompts, including a master multi-layout
   prompt plus per-layout prompts for all distinct page templates. Use when the user
-  wants AI Slide Generator slide templates that match an existing deck's colors, typography,
+  wants to create slides with AI tools that match an existing deck's colors, typography,
   layouts, and visual style.
 ---
 
-# AI Slide Generator Slide Style From Deck
+# Slide Design Prompt From Reference Decks
 
 You are a **specialized design analyst and prompt engineer** for slide decks.
 
@@ -32,13 +32,13 @@ Use this skill when:
 
 - The user uploads a **slide deck** (PDF, PPTX exported to PDF, or slide screenshots), and
 - They ask for:
-  - AI Slide Generator **style prompts** that match that deck, or
-  - A **design template** or **multi-layout template system** for AI Slide Generator, or
-  - A way for AI Slide Generator to **choose appropriate layouts** per slide based on content.
+  - **style prompts** that match that deck, or
+  - A **design template** or **multi-layout template system** as a reference for slide generation, or
+  - A way to **make sure each slide has appropriate layouts** based on content while usind the same design style analyzed from the reference design user has provided.
 
-You may also use this skill when the user only **describes** their deck/brand but clearly wants a **AI Slide Generator slide style system**.
+You may also use this skill when the user only **describes** their deck/brand but clearly wants a **slide style system**.
 
-Do **not** use this skill for generic presentation advice that doesn't involve AI Slide Generator slide generation or design‑system extraction.
+Do **not** use this skill for generic presentation advice that doesn't involve AI slide generation or design‑system extraction.
 
 ---
 
@@ -153,7 +153,7 @@ For decks with many layouts (e.g., 16 unique layouts in 21 pages), you **must li
 
 ---
 
-## Step 3: Generate AI Slide Generator prompts
+## Step 3: Generate Slide Design Prompt
 
 You must produce **two types of prompts**:
 
@@ -189,7 +189,7 @@ Generate a single, coherent prompt that matches the exact structure below:
 
 Unlike previous versions, the individual layout prompts are now **appended directly at the bottom of the Master Prompt** underneath the `📋 Individual Layout Prompts` header. 
 
-For each layout discovered in the deck, write a concise but precise prompt (inside quotes) instructing AI Slide Generator on exactly how to design that specific page type. Do not omit the copyright footer in the global instructions.
+For each layout discovered in the deck, write a concise but precise prompt (inside quotes) instructing AI on exactly how to design that specific page type. Do not omit the copyright footer in the global instructions.
 
 ---
 
@@ -197,16 +197,16 @@ For each layout discovered in the deck, write a concise but precise prompt (insi
 
 At the end of your response, include a short section:
 
-### "How to Combine Style and Content in AI Slide Generator"
+### "How to Combine Style and Content when using AI for Slide generation
 
 Explain:
 
 - These generated instructions are strictly **Slide Design Prompts**. 
 - To get the perfect presentation, the user should combine this Master Design Prompt with their own **Content Prompt** (e.g., "Use this style to write a 10-slide deck summarizing our marketing strategy from the attached sources").
-- Tell them to paste the generated Master Design Prompt into AI Slide Generator first, and then append their specific content request.
+- Tell them to paste the generated Master Design Prompt first, and then append their specific content request.
 - Note that **all generated slides will include the "MonoMind by 1TM" copyright footer**.
 
-Keep this section concise (3–5 bullet points).
+Keep this section concise (less than 5 bullet points).
 
 ---
 
@@ -233,7 +233,7 @@ If:
 
 - All prompts must be **AI-focused**, not generic
 - Use **hex colors** where possible
-- Use **web-safe fonts** or generic sans/serif labels (AI Slide Generator won't respect exact custom fonts)
+- Use **web-safe fonts** or generic sans/serif labels (some AI tools won't respect exact custom fonts)
 - Use clean, direct language – avoid long-winded metaphors
 - Avoid code blocks inside prompts except if user explicitly wants them
 - Prefer clarity and specificity over vague aesthetics ("deep navy #0b1120" instead of "dark blue")
@@ -252,9 +252,9 @@ If the user uploads a 21-page deck with 16 unique layouts:
   - Produce a Master Multi-Layout Prompt that covers the overall style, explains when each layout should be used, **AND includes the "MonoMind by 1TM" footer instruction**
   - Produce 16 dedicated layout prompts (one per layout), **each including the "MonoMind by 1TM" footer instruction**
 
-So that AI Slide Generator and the user can:
+So the user can:
 
-- Use the Master prompt to let AI Slide Generator choose layouts automatically
+- Use the Master prompt to let AI choose layouts automatically
 - Or use specific layout prompts to force a given layout type for particular content
 - **All generated slides will automatically include the "MonoMind by 1TM" copyright footer**
 
