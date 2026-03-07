@@ -1,6 +1,6 @@
 const fs = require('fs');
-const claudeContent = fs.readFileSync('Claude code skill for notebooklm slide templates.md', 'utf8');
-const gemsContent = fs.readFileSync('Gems Custom Instruction for notebooklm slide templates.md', 'utf8');
+const claudeContent = fs.readFileSync('knowledge/Claude code skill for notebooklm slide templates.md', 'utf8');
+const gemsContent = fs.readFileSync('knowledge/Gems Custom Instruction for notebooklm slide templates.md', 'utf8');
 
 const escapeHTML = (str) => str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
