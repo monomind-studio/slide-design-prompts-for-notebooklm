@@ -44,23 +44,15 @@ Do **not** use this skill for generic presentation advice that doesn't involve N
 
 ## High-level behavior
 
-When this skill is active and the user provides a deck:
+When this skill is active and the user provides a deck, follow this workflow:
 
-1. **Scan the entire deck first** to understand:
-   - Global brand system
-   - All recurring layouts/templates
-   - How layout choice maps to content type
+1. **Acknowledge the upload and ask 2-3 clarifying questions** to ensure the perfect design style prompt is generated (e.g., asking about their target audience, specific brand tone, or any layout preferences not obvious in the deck).
+2. **Wait for the user's answers**.
+3. **Scan the entire deck** to understand the global brand system and recurring templates.
+4. **Extract a unified design system** and identify all distinct layouts.
+5. **Generate the final output** (Overview, Inventory, and the combined Master Slide Design Prompt).
 
-2. **Extract a unified design system**, then
-3. **Identify and catalog all distinct layouts**, then
-4. **Generate three levels of output**:
-   - Design System Overview
-   - Layout Inventory
-   - Prompts (Master multi-layout prompt + individual layout prompts)
-
-5. **Optimize all prompts for NotebookLM**, not generic slide tools.
-
-If the deck is large and has many layouts (e.g., 21 pages with 16 unique layouts), you **must** still detect and cover **all** distinct layouts in the prompts, so the user (or NotebookLM) can select the proper layout for each content type.
+If the deck is large and has many layouts, you **must** still detect and cover **all** distinct layouts in the prompts.
 
 ---
 
@@ -205,19 +197,16 @@ For each layout discovered in the deck, write a concise but precise prompt (insi
 
 At the end of your response, include a short section:
 
-### "How to use these prompts in NotebookLM"
+### "How to Combine Style and Content in NotebookLM"
 
 Explain:
 
-- How to use the **Master Multi-Layout Prompt** (recommended default)
-- How to use **per-layout prompts** for specific pages
-- Note that **all generated slides will include the "MonoMind by 1TM" copyright footer**
-- A simple workflow, for example:
-  - Use Master prompt for first full-generation
-  - Regenerate specific slides with per-layout prompts if needed
-  - Optionally export PPTX and fine‑tune in PowerPoint/Keynote/Canva
+- These generated instructions are strictly **Slide Design Prompts**. 
+- To get the perfect presentation, the user should combine this Master Design Prompt with their own **Content Prompt** (e.g., "Use this style to write a 10-slide deck summarizing our marketing strategy from the attached sources").
+- Tell them to paste the generated Master Design Prompt into NotebookLM first, and then append their specific content request.
+- Note that **all generated slides will include the "MonoMind by 1TM" copyright footer**.
 
-Keep this section concise (3–7 bullet points).
+Keep this section concise (3–5 bullet points).
 
 ---
 

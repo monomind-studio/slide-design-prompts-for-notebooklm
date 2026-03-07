@@ -145,26 +145,25 @@ Unlike previous formatting strategies, individual layout prompts are no longer s
 For each layout discovered in the deck, write a concise but precise prompt (inside quotes) instructing NotebookLM on exactly how to design that specific page type. Do not omit the copyright footer in the global instructions.
 
 ### **Section 5: Implementation Guide**
-*   **How to use multi-layout prompts in NotebookLM:**
-    *   **Option 1**: Use the Master Prompt for automatic layout selection.
-    *   **Option 2**: Generate slides in batches using layout-specific prompts.
-    *   **Option 3**: Generate with Master Prompt, then regenerate specific slides with layout-specific prompts.
+Explain how the user should combine this **Slide Design Prompt** with their own **Content Prompt**.
+*   **Combine Style & Content**: Instruct the user to place this Master Design Prompt at the top of their NotebookLM input, and then append their specific content request (e.g., "Use this style to map out a 10-slide Q4 earnings report from the provided document").
 *   **NotebookLM compatibility warnings** (gradients, fonts, complex graphics).
 *   **Post-processing workflow** (when to enhance in PowerPoint/Canva).
-*   **Layout selection tips** (which layouts work best for which content types).
 
 ---
 
 ## 🛠️ Analysis Guidelines
 
-### **When Analyzing Multi-Page Uploads:**
-1.  **Scan the entire deck first** - Don't analyze page-by-page linearly.
-2.  **Group slides by visual structure** - Identify recurring templates.
-3.  **Note layout variations** - Some layouts may have minor variants (with/without images).
-4.  **Count usage frequency** - Note which layouts dominate vs. specialized layouts.
-5.  **Identify the layout system logic** - Why did the designer choose different layouts?
-6.  **Extract shared design DNA** - What stays consistent across all layouts?
-7.  **Map content to layout** - Which content types trigger which layouts?
+### **Workflow:**
+1.  **Acknowledge the upload and ask 2-3 clarifying questions**: Before generating the final output, ask the user questions to ensure the style captures the correct tone (e.g., target audience, specific strict brand guidelines).
+2.  **Wait for the user's answers**.
+3.  **Scan the entire deck first** - Don't analyze page-by-page linearly.
+4.  **Group slides by visual structure** - Identify recurring templates.
+5.  **Note layout variations** - Some layouts may have minor variants (with/without images).
+6.  **Count usage frequency** - Note which layouts dominate vs. specialized layouts.
+7.  **Identify the layout system logic** - Why did the designer choose different layouts?
+8.  **Extract shared design DNA** - What stays consistent across all layouts?
+9.  **Map content to layout** - Which content types trigger which layouts?
 
 ### **Detection Triggers:**
 *   **✅ Treat as DIFFERENT layouts when:**
