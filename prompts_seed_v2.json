@@ -27,7 +27,7 @@
   },
   {
     "id": "2af13bc8-e6ae-4ac8-8588-b282ee930b82",
-    "title": "cyberpunk nano",
+    "title": "Cyberpunk Nano",
     "industry": "Semiconductor",
     "type": "Cyberpunk Nano Vision",
     "colors": [
@@ -40,7 +40,7 @@
   },
   {
     "id": "bc37b54e-6088-43d0-a22e-0a9803a1192d",
-    "title": "industrial gray",
+    "title": "Industrial Gray",
     "industry": "Semiconductor",
     "type": "Industrial Gray B2B Equipment",
     "colors": [
@@ -66,7 +66,7 @@
   },
   {
     "id": "3fbfa3b3-c1c1-4062-ae7a-2f9e688fa958",
-    "title": "data infographics",
+    "title": "Data Infographics",
     "industry": "Semiconductor",
     "type": "Data Analytics Research Report",
     "colors": [
@@ -92,7 +92,7 @@
   },
   {
     "id": "ab096a3d-5228-4866-a3a2-573a983a7c95",
-    "title": "speed dynamics",
+    "title": "Speed Dynamics",
     "industry": "Automotive",
     "type": "Speed Dynamics Launch",
     "colors": [
@@ -105,7 +105,7 @@
   },
   {
     "id": "b69ee8af-e71b-43f8-9157-2419442826bf",
-    "title": "EV green future",
+    "title": "EV Green Future",
     "industry": "Automotive",
     "type": "EV Sustainable Vision",
     "colors": [
@@ -118,7 +118,7 @@
   },
   {
     "id": "82c7e3a6-2a92-4c7e-a59c-4d8041743c43",
-    "title": "luxury motion",
+    "title": "Luxury Motion",
     "industry": "Automotive",
     "type": "Luxury Automotive Premium",
     "colors": [
@@ -131,7 +131,7 @@
   },
   {
     "id": "ff8a6fdf-739d-4974-9c75-2e017da1522f",
-    "title": "family safety",
+    "title": "Family Safety",
     "industry": "Automotive",
     "type": "Family Safety Trust",
     "colors": [
@@ -144,7 +144,7 @@
   },
   {
     "id": "12b44021-7222-4a75-a81a-a1057f0004d4",
-    "title": "SDV smart mobility",
+    "title": "SDV Smart Mobility",
     "industry": "Automotive",
     "type": "Software Defined Vehicle",
     "colors": [
@@ -157,7 +157,7 @@
   },
   {
     "id": "3ae6d5b2-9186-4c49-9fa9-9041755ae2d4",
-    "title": "classic heritage",
+    "title": "Classic Heritage",
     "industry": "Automotive",
     "type": "Brand Heritage Story",
     "colors": [
@@ -170,7 +170,7 @@
   },
   {
     "id": "3f4235b7-c9af-4c3f-8ad7-91aecb8ec9bd",
-    "title": "commercial vehicle business",
+    "title": "Commercial Vehicle Strategy",
     "industry": "Automotive",
     "type": "Commercial Vehicle B2B",
     "colors": [
@@ -196,7 +196,7 @@
   },
   {
     "id": "f3b14256-ab23-4e33-bcb4-ceab033d3fee",
-    "title": "Warm healing care",
+    "title": "Warm Healing Care",
     "industry": "Hospital",
     "type": "Warm Healing Care",
     "colors": [
@@ -209,7 +209,7 @@
   },
   {
     "id": "02b3efc4-f34b-411f-b4ad-65d65f6661b7",
-    "title": "dark medical tech",
+    "title": "Dark Medical Tech",
     "industry": "Hospital",
     "type": "Dark Medical Technology",
     "colors": [
@@ -222,7 +222,7 @@
   },
   {
     "id": "8770cb2d-4a6f-45b6-9cf1-d2fcae9b93b9",
-    "title": "health infographics",
+    "title": "Health Infographics",
     "industry": "Hospital",
     "type": "Health Education Infographic",
     "colors": [
@@ -248,7 +248,7 @@
   },
   {
     "id": "a629e218-722a-41e6-9713-b7e06b8c5f82",
-    "title": "digital healthcare",
+    "title": "Digital Healthcare",
     "industry": "Hospital",
     "type": "Digital Healthcare Platform",
     "colors": [
@@ -261,7 +261,7 @@
   },
   {
     "id": "2b990013-fed5-4cec-be1a-97c322220839",
-    "title": "patient safety campaign",
+    "title": "Patient Safety Campaign",
     "industry": "Hospital",
     "type": "Patient Safety Campaign",
     "colors": [
@@ -274,7 +274,7 @@
   },
   {
     "id": "b841694d-18e9-47bc-8106-6dfeefd0e312",
-    "title": "traditional oriental aesthetics",
+    "title": "Traditional Oriental Aesthetics",
     "industry": "Oriental",
     "type": "Traditional Oriental Aesthetics",
     "colors": [
@@ -326,7 +326,7 @@
   },
   {
     "id": "311df5ee-9b74-4dc5-99c5-a21681b37991",
-    "title": "sports herbal rehabilitation",
+    "title": "Sports Herbal Rehabilitation",
     "industry": "Oriental",
     "type": "Sports Oriental Rehab",
     "colors": [
@@ -339,7 +339,7 @@
   },
   {
     "id": "868d33f2-1ef4-496e-94dd-b8ceaf1e59e3",
-    "title": "Pediatric growth herbal medicine",
+    "title": "Pediatric Growth Herbal Medicine",
     "industry": "Oriental",
     "type": "Pediatric Growth Oriental",
     "colors": [
@@ -352,7 +352,7 @@
   },
   {
     "id": "292b634e-41f3-4853-a661-88df17e6f1cd",
-    "title": "Customized physical examination",
+    "title": "Customized Physical Examination",
     "industry": "Oriental",
     "type": "Oriental Constitution Checkup",
     "colors": [
@@ -378,7 +378,7 @@
   },
   {
     "id": "767c22ff-9d28-4d84-8d22-85f1f1806525",
-    "title": "H&B lifestyle",
+    "title": "H&B Lifestyle",
     "industry": "Pharmacy",
     "type": "Health Beauty Lifestyle",
     "colors": [
@@ -391,7 +391,7 @@
   },
   {
     "id": "67db09a4-385b-490a-bd84-b09c3f482aec",
-    "title": "senior care Pharmacies",
+    "title": "Senior Care Pharmacies",
     "industry": "Pharmacy",
     "type": "Senior Care Pharmacy",
     "colors": [
@@ -417,7 +417,7 @@
   },
   {
     "id": "f13411ae-401b-4421-8737-fb48c741ceec",
-    "title": "professional pharmacy Pharmacies",
+    "title": "Professional Pharmacy",
     "industry": "Pharmacy",
     "type": "Specialty Compounding",
     "colors": [
@@ -430,7 +430,7 @@
   },
   {
     "id": "670541d5-5fa5-48cb-8bb1-3a7e8c6aed4e",
-    "title": "Health functional food curation",
+    "title": "Health Functional Food Curation",
     "industry": "Pharmacy",
     "type": "Health Supplement Curation",
     "colors": [
@@ -495,7 +495,7 @@
   },
   {
     "id": "31985f72-4838-47c6-972b-66d895c611f2",
-    "title": "corporate finance B2B",
+    "title": "Corporate Finance B2B",
     "industry": "Bank",
     "type": "Corporate Banking B2B",
     "colors": [
@@ -508,7 +508,7 @@
   },
   {
     "id": "88a1b5d9-6790-4fc5-8dfb-7211cbe65eb7",
-    "title": "green finance ESG",
+    "title": "Green Finance ESG",
     "industry": "Bank",
     "type": "Green Finance ESG",
     "colors": [
@@ -534,7 +534,7 @@
   },
   {
     "id": "3bf760a4-78a1-49bb-95d1-994060bdcdb3",
-    "title": "consumer finance life",
+    "title": "Consumer Finance Life",
     "industry": "Bank",
     "type": "Consumer Finance Lifestyle",
     "colors": [
@@ -547,7 +547,7 @@
   },
   {
     "id": "6516c2cf-2c40-4bcf-9749-f4f0a4f9be8f",
-    "title": "bull market momentum",
+    "title": "Bull Market Momentum",
     "industry": "Securities",
     "type": "Bull Market Momentum",
     "colors": [
@@ -573,7 +573,7 @@
   },
   {
     "id": "fcf75d29-69e8-47be-90a4-e2030184190f",
-    "title": "ETF·fund infographic",
+    "title": "ETF Fund Infographic",
     "industry": "Securities",
     "type": "ETF Fund Education",
     "colors": [
@@ -586,7 +586,7 @@
   },
   {
     "id": "f01e02be-6b40-4224-9c92-123484e4117e",
-    "title": "IB Deal making",
+    "title": "IB Deal Making",
     "industry": "Securities",
     "type": "Investment Banking Deals",
     "colors": [
@@ -599,7 +599,7 @@
   },
   {
     "id": "e73085cc-1f82-4d77-a10b-286482e90f77",
-    "title": "quant·algorithmic trading",
+    "title": "Quant Algorithmic Trading",
     "industry": "Securities",
     "type": "Quant Algorithmic Trading",
     "colors": [
@@ -612,7 +612,7 @@
   },
   {
     "id": "6c478da5-a51b-4fd1-8313-0af101a91610",
-    "title": "retail investment Education",
+    "title": "Retail Investment Education",
     "industry": "Securities",
     "type": "Retail Investor Education",
     "colors": [
@@ -638,7 +638,7 @@
   },
   {
     "id": "5e60f102-89e1-445f-b8ad-3c499e0200d6",
-    "title": "SaaS Product launch",
+    "title": "SaaS Product Launch",
     "industry": "Software",
     "type": "SaaS Product Launch",
     "colors": [
@@ -651,7 +651,7 @@
   },
   {
     "id": "b5c10130-db2c-45b8-a38c-2d7337c91934",
-    "title": "B2B enterprise sales",
+    "title": "Enterprise B2B Sales",
     "industry": "Software",
     "type": "B2B Enterprise Sales",
     "colors": [
@@ -664,7 +664,7 @@
   },
   {
     "id": "228f875a-ce58-41d3-99de-c6f61a87edf9",
-    "title": "Open Source Developer Conference",
+    "title": "Open Source Dev Conference",
     "industry": "Software",
     "type": "Open Source Dev Conference",
     "colors": [
@@ -677,7 +677,7 @@
   },
   {
     "id": "a6b53eec-60cc-41f5-88ee-b1340b732da6",
-    "title": "Software startup IR",
+    "title": "Startup Investment Relations",
     "industry": "Software",
     "type": "Software Startup IR",
     "colors": [
@@ -716,7 +716,7 @@
   },
   {
     "id": "0ba92d77-26f8-4eb4-b192-0ccd8ff2581b",
-    "title": "SW Annual IR Report",
+    "title": "Annual IR Report",
     "industry": "Software",
     "type": "Software Annual IR Report",
     "colors": [
@@ -729,7 +729,7 @@
   },
   {
     "id": "0546196f-ab90-4ed8-a4a8-700e818dc236",
-    "title": "App launching keynote",
+    "title": "App Launch Keynote",
     "industry": "Appdev",
     "type": "App Launch Keynote",
     "colors": [
@@ -742,7 +742,7 @@
   },
   {
     "id": "4829ba39-16d4-4c43-b043-3f10fc623816",
-    "title": "UX design case",
+    "title": "UX Design Case Study",
     "industry": "Appdev",
     "type": "UX Design Case Study",
     "colors": [
@@ -755,7 +755,7 @@
   },
   {
     "id": "baf9816a-f582-4301-a710-bbdbde244116",
-    "title": "App developer portfolio",
+    "title": "Developer Portfolio",
     "industry": "Appdev",
     "type": "App Development Portfolio",
     "colors": [
@@ -768,7 +768,7 @@
   },
   {
     "id": "5f1532cb-9f81-489a-ac9a-84fbafa1a8b2",
-    "title": "App growth growth hacking",
+    "title": "App Growth Hacking",
     "industry": "Appdev",
     "type": "App Growth Hacking",
     "colors": [
@@ -781,7 +781,7 @@
   },
   {
     "id": "1f09e924-aade-40bc-854a-303c824ef9c0",
-    "title": "Super app platform strategy",
+    "title": "Super App Strategy",
     "industry": "Appdev",
     "type": "Super App Platform Strategy",
     "colors": [
@@ -794,7 +794,7 @@
   },
   {
     "id": "c754bf73-c64a-440d-a37e-df1c3793d870",
-    "title": "App accessibility inclusion",
+    "title": "App Accessibility Inclusion",
     "industry": "Appdev",
     "type": "App Accessibility Inclusion",
     "colors": [
@@ -807,7 +807,7 @@
   },
   {
     "id": "4542f02e-45ba-4c10-b923-c7317e55061c",
-    "title": "App Developmentbuy IR deck",
+    "title": "App Development IR Deck",
     "industry": "Appdev",
     "type": "App Company IR Deck",
     "colors": [
@@ -820,7 +820,7 @@
   },
   {
     "id": "f6d2bbec-d809-4579-aa14-bc566f77948d",
-    "title": "Artificial Intelligence Product launch",
+    "title": "AI Product Launch",
     "industry": "Ai",
     "type": "Artificial Intelligence Product Launch",
     "colors": [
@@ -833,7 +833,7 @@
   },
   {
     "id": "9eb3fb45-7dd9-4126-bc47-cee5ee337fd6",
-    "title": "Artificial Intelligence B2B Solution proposal",
+    "title": "AI B2B Solution Proposal",
     "industry": "Ai",
     "type": "Artificial Intelligence B2B Enterprise Solution",
     "colors": [
@@ -846,7 +846,7 @@
   },
   {
     "id": "ece4906a-6d34-49f6-a09a-5f9e779b858b",
-    "title": "Artificial Intelligence Research paper presentation",
+    "title": "AI Research Presentation",
     "industry": "Ai",
     "type": "Artificial Intelligence Research Paper Presentation",
     "colors": [
@@ -859,7 +859,7 @@
   },
   {
     "id": "0ceeaed3-3495-42d9-87d4-921f91249a17",
-    "title": "Artificial Intelligence startup IR",
+    "title": "AI Startup Investment Relations",
     "industry": "Ai",
     "type": "Artificial Intelligence Startup IR Pitch",
     "colors": [
@@ -872,7 +872,7 @@
   },
   {
     "id": "d05cf2ea-b91c-4f67-8ef7-76a240afca55",
-    "title": "Artificial Intelligence ethic·governance",
+    "title": "AI Ethics & Governance",
     "industry": "Ai",
     "type": "Artificial Intelligence Ethics Governance",
     "colors": [
@@ -885,7 +885,7 @@
   },
   {
     "id": "32642ceb-df25-4580-9125-255d5d70ccdc",
-    "title": "Artificial Intelligence infrastructure MLOps",
+    "title": "AI Infrastructure MLOps",
     "industry": "Ai",
     "type": "Artificial Intelligence Infrastructure MLOps",
     "colors": [
@@ -898,7 +898,7 @@
   },
   {
     "id": "cb147b00-0d28-421c-bced-d73f0fc16799",
-    "title": "Artificial Intelligence Transformation Strategy",
+    "title": "AI Transformation Strategy",
     "industry": "Ai",
     "type": "Artificial Intelligence Transformation Strategy",
     "colors": [
@@ -911,7 +911,7 @@
   },
   {
     "id": "5d0c4d60-2baf-4626-afcf-04d64d288024",
-    "title": "high fashion runway",
+    "title": "High Fashion Runway",
     "industry": "Fashion",
     "type": "High Fashion Runway",
     "colors": [
@@ -924,7 +924,7 @@
   },
   {
     "id": "3405c9bd-2331-4847-a5ef-dad94ed5fcb9",
-    "title": "street wear energy",
+    "title": "Streetwear Energy",
     "industry": "Fashion",
     "type": "Streetwear Energy",
     "colors": [
@@ -937,7 +937,7 @@
   },
   {
     "id": "57938c90-d7ed-46f7-a918-00d4cb553386",
-    "title": "minimal contemporary",
+    "title": "Minimal Contemporary",
     "industry": "Fashion",
     "type": "Minimal Contemporary Fashion",
     "colors": [
@@ -950,7 +950,7 @@
   },
   {
     "id": "116110e7-407b-49b5-b2c4-101a2d96be75",
-    "title": "K-fashion global",
+    "title": "K-Fashion Global",
     "industry": "Fashion",
     "type": "K-Fashion Global",
     "colors": [
@@ -963,7 +963,7 @@
   },
   {
     "id": "82c98ff8-26ec-4699-b4a6-95c98fc35675",
-    "title": "sustainable fashion ESG",
+    "title": "Sustainable Fashion ESG",
     "industry": "Fashion",
     "type": "Sustainable Fashion ESG",
     "colors": [
@@ -976,7 +976,7 @@
   },
   {
     "id": "88a6be07-3e67-4309-b4a1-ed78522cdc6d",
-    "title": "Fashion platform e-commerce",
+    "title": "Fashion E-Commerce Platform",
     "industry": "Fashion",
     "type": "Fashion Platform E-commerce",
     "colors": [
@@ -989,7 +989,7 @@
   },
   {
     "id": "a5376c5b-a49b-48f7-bec2-226652d461fc",
-    "title": "Clothing brand IR",
+    "title": "Clothing Brand Investment Relations",
     "industry": "Fashion",
     "type": "Fashion Brand IR",
     "colors": [
@@ -1015,7 +1015,7 @@
   },
   {
     "id": "8a908446-a646-4912-9488-91b288b64995",
-    "title": "K-Beauty global launch",
+    "title": "K-Beauty Global Launch",
     "industry": "Cosmetics",
     "type": "K-Beauty Global Launch",
     "colors": [
@@ -1028,7 +1028,7 @@
   },
   {
     "id": "9240d17b-8f67-4a65-8301-ff46e849babf",
-    "title": "luxury skin care",
+    "title": "Luxury Skincare",
     "industry": "Cosmetics",
     "type": "Luxury Skincare Premium",
     "colors": [
@@ -1041,7 +1041,7 @@
   },
   {
     "id": "86dcf4f0-51cd-494b-9913-fd6f9150fe97",
-    "title": "color makeup vivid",
+    "title": "Color Makeup Vivid",
     "industry": "Cosmetics",
     "type": "Color Makeup Vivid",
     "colors": [
@@ -1067,7 +1067,7 @@
   },
   {
     "id": "e2feaf63-49bc-43db-9757-bb268806e8ad",
-    "title": "Beauty D2C e-commerce",
+    "title": "Beauty D2C E-Commerce",
     "industry": "Cosmetics",
     "type": "Beauty D2C E-commerce",
     "colors": [
@@ -1080,7 +1080,7 @@
   },
   {
     "id": "2d9400e5-78b0-43db-8875-4109ed13ba47",
-    "title": "Cosmetics IR annual",
+    "title": "Cosmetics Annual IR",
     "industry": "Cosmetics",
     "type": "Cosmetics IR Annual",
     "colors": [
@@ -1119,7 +1119,7 @@
   },
   {
     "id": "f9829675-0f9d-4655-b1e8-7295f59fb352",
-    "title": "hair care wellness",
+    "title": "Hair Care Wellness",
     "industry": "Salon",
     "type": "Hair Care Wellness",
     "colors": [
@@ -1132,7 +1132,7 @@
   },
   {
     "id": "b43b342b-4ee7-4e8c-9c53-857a1b7cbf55",
-    "title": "Starting a Salon Franchises",
+    "title": "Salon Franchise Startup",
     "industry": "Salon",
     "type": "Salon Franchise Startup",
     "colors": [
@@ -1145,7 +1145,7 @@
   },
   {
     "id": "7837fd4b-fa37-4def-816a-85efcad15f99",
-    "title": "men grooming barber",
+    "title": "Men's Grooming Barber",
     "industry": "Salon",
     "type": "Men Grooming Barber",
     "colors": [
@@ -1158,7 +1158,7 @@
   },
   {
     "id": "d3aecc2c-796c-4e73-bc1a-c9cfbe67f764",
-    "title": "Salon SNS Marketing",
+    "title": "Salon Social Media Marketing",
     "industry": "Salon",
     "type": "Salon SNS Marketing",
     "colors": [
@@ -1184,7 +1184,7 @@
   },
   {
     "id": "a56f89ca-4526-421d-8c19-e28922ccf18b",
-    "title": "Agricultural Co-ops public trust",
+    "title": "Agricultural Public Trust",
     "industry": "Nonghyup",
     "type": "NH Public Trust",
     "colors": [
@@ -1197,7 +1197,7 @@
   },
   {
     "id": "fd0e7766-e0bb-43aa-9f63-d1358f0d7c04",
-    "title": "Agricultural Co-ops financial services",
+    "title": "Agricultural Financial Services",
     "industry": "Nonghyup",
     "type": "NH Financial Services",
     "colors": [
@@ -1210,7 +1210,7 @@
   },
   {
     "id": "58a0a602-8402-423e-934d-ab30363e09f4",
-    "title": "Local food direct store",
+    "title": "Local Food Direct Store",
     "industry": "Nonghyup",
     "type": "Local Food Direct Market",
     "colors": [
@@ -1223,7 +1223,7 @@
   },
   {
     "id": "cf49b6d8-9dcd-4df1-88f1-80a82372d0c2",
-    "title": "Hope guide for returning to farming village",
+    "title": "Guide to Farming Transition",
     "industry": "Nonghyup",
     "type": "Rural Life Migration Guide",
     "colors": [
@@ -1236,7 +1236,7 @@
   },
   {
     "id": "a81095a1-93ea-490d-addb-e859f2f15082",
-    "title": "Eco-friendly organic certification",
+    "title": "Organic Certification",
     "industry": "Nonghyup",
     "type": "Organic Certification Brand",
     "colors": [
@@ -1262,7 +1262,7 @@
   },
   {
     "id": "4afe3dca-bbe2-46d0-9648-43ea59f8d6ea",
-    "title": "Agricultural Co-ops digital innovation",
+    "title": "Digital Agriculture Innovation",
     "industry": "Nonghyup",
     "type": "NH Digital Innovation",
     "colors": [
@@ -1275,7 +1275,7 @@
   },
   {
     "id": "397d7b9e-a8fd-47dc-9197-f19cfbd005c2",
-    "title": "Smart Farms Tech launch",
+    "title": "Smart Farms Tech Launch",
     "industry": "Smartfarm",
     "type": "Smart Farm Tech Launch",
     "colors": [
@@ -1288,7 +1288,7 @@
   },
   {
     "id": "75a1e004-ffa5-4f28-a266-240d83c57e2d",
-    "title": "vertical farm plant factory",
+    "title": "Vertical Farm Innovation",
     "industry": "Smartfarm",
     "type": "Vertical Farm Plant Factory",
     "colors": [
@@ -1301,7 +1301,7 @@
   },
   {
     "id": "2878de01-7264-485b-b8ef-08f110da966b",
-    "title": "smart greenhouse B2B",
+    "title": "Smart Greenhouse Solutions",
     "industry": "Smartfarm",
     "type": "Smart Greenhouse B2B",
     "colors": [
@@ -1314,7 +1314,7 @@
   },
   {
     "id": "b6efc14d-a92a-4d7b-9526-1d515271af2d",
-    "title": "Agtech startup IR",
+    "title": "AgTech Investment Relations",
     "industry": "Smartfarm",
     "type": "AgTech Startup IR",
     "colors": [
@@ -1327,7 +1327,7 @@
   },
   {
     "id": "6499f601-0574-47df-af29-4f3f2b33c25d",
-    "title": "carbon neutral agriculture",
+    "title": "Sustainable Agriculture",
     "industry": "Smartfarm",
     "type": "Carbon Neutral Agriculture",
     "colors": [
@@ -1340,7 +1340,7 @@
   },
   {
     "id": "04a72988-b7e7-4b5d-803d-fbbf5425783b",
-    "title": "Smart Farms Education academy",
+    "title": "Smart Farms Academy",
     "industry": "Smartfarm",
     "type": "Smart Farm Education Academy",
     "colors": [
@@ -1353,7 +1353,7 @@
   },
   {
     "id": "04693586-6fba-443b-8da8-3a5e74c380b8",
-    "title": "Global Smart Farms Export",
+    "title": "Global AgTech Export",
     "industry": "Smartfarm",
     "type": "Global Smart Farm Export",
     "colors": [
@@ -1366,7 +1366,7 @@
   },
   {
     "id": "bbdc4de7-5384-4bcf-9b64-1997e4af878f",
-    "title": "Official report on municipal administration performance",
+    "title": "Municipal Performance Report",
     "industry": "Localg",
     "type": "Municipal Performance Report",
     "colors": [
@@ -1379,7 +1379,7 @@
   },
   {
     "id": "08cd034c-b748-4910-bd67-39c43531f7a0",
-    "title": "regional development vision",
+    "title": "Regional Growth Vision",
     "industry": "Localg",
     "type": "Regional Development Vision",
     "colors": [
@@ -1392,7 +1392,7 @@
   },
   {
     "id": "433cf73a-1588-44a9-8d55-54bdc4f71de0",
-    "title": "Citizen Communication Campaign",
+    "title": "Community Engagement Campaign",
     "industry": "Localg",
     "type": "Citizen Communication Campaign",
     "colors": [
@@ -1405,7 +1405,7 @@
   },
   {
     "id": "aec2698a-8925-49ce-ab4a-4759a94ebb32",
-    "title": "smart city digital",
+    "title": "Smart City Digital",
     "industry": "Localg",
     "type": "Smart City Digital Gov",
     "colors": [
@@ -1418,7 +1418,7 @@
   },
   {
     "id": "c09a2153-32b4-4c7f-958c-473b01788dcf",
-    "title": "Promotion of local tourism culture",
+    "title": "Local Tourism Promotion",
     "industry": "Localg",
     "type": "Local Tourism Culture PR",
     "colors": [
@@ -1431,7 +1431,7 @@
   },
   {
     "id": "8571e7d1-33ec-4dd0-abd5-d382ee7cf765",
-    "title": "Local Governments ESG carbon neutral",
+    "title": "Green City Initiatives",
     "industry": "Localg",
     "type": "Local Gov ESG Carbon Neutral",
     "colors": [
@@ -1444,7 +1444,7 @@
   },
   {
     "id": "903411bb-36f4-420f-bb9a-a49f7303742d",
-    "title": "Attracting local economic investment",
+    "title": "Economic Investment Strategy",
     "industry": "Localg",
     "type": "Regional Investment Attraction",
     "colors": [
@@ -1457,7 +1457,7 @@
   },
   {
     "id": "f511e29a-d00c-4e40-83e4-5c43c6aa67cc",
-    "title": "Public Enterprises Annual management report",
+    "title": "Annual Management Report",
     "industry": "Pubcorp",
     "type": "Public Corp Annual Report",
     "colors": [
@@ -1470,7 +1470,7 @@
   },
   {
     "id": "51e27554-af54-4426-814f-0a16f8bf2373",
-    "title": "public infrastructure project",
+    "title": "Infrastructure Development",
     "industry": "Pubcorp",
     "type": "Public Infrastructure Project",
     "colors": [
@@ -1483,7 +1483,7 @@
   },
   {
     "id": "4f140a8d-b4d1-46f8-b67e-213ca20cc3bd",
-    "title": "Public Enterprises ESG management",
+    "title": "ESG Management Strategy",
     "industry": "Pubcorp",
     "type": "Public Corp ESG Management",
     "colors": [
@@ -1496,7 +1496,7 @@
   },
   {
     "id": "3d63f74c-6544-4daf-b12f-afabb109d1ea",
-    "title": "public digital innovation",
+    "title": "Digital Innovation Strategy",
     "industry": "Pubcorp",
     "type": "Public Digital Innovation",
     "colors": [
@@ -1509,7 +1509,7 @@
   },
   {
     "id": "adea365d-da9d-40cf-8a8a-b4369f12b771",
-    "title": "Public Enterprises safety management",
+    "title": "Safety Management Protocols",
     "industry": "Pubcorp",
     "type": "Public Corp Safety Management",
     "colors": [
@@ -1522,7 +1522,7 @@
   },
   {
     "id": "cff5c825-89a3-46e3-8886-b3e1665b5acc",
-    "title": "public service innovation",
+    "title": "Public Service Innovation",
     "industry": "Pubcorp",
     "type": "Public Service Innovation",
     "colors": [
@@ -1535,7 +1535,7 @@
   },
   {
     "id": "033d073c-c38d-4260-ba92-63d30600def0",
-    "title": "Public Enterprises Recruitment Branding",
+    "title": "Recruitment Branding Strategy",
     "industry": "Pubcorp",
     "type": "Public Corp Talent Branding",
     "colors": [
@@ -1548,7 +1548,7 @@
   },
   {
     "id": "7713d7d5-1e9d-4788-91c2-0eae1a996347",
-    "title": "Luxury travel curation",
+    "title": "Luxury Travel Experiences",
     "industry": "Travel",
     "type": "Luxury Travel Curation",
     "colors": [
@@ -1561,7 +1561,7 @@
   },
   {
     "id": "4eeee515-0d70-416e-9af1-f4e922499fcd",
-    "title": "global package energy",
+    "title": "Global Travel Packages",
     "industry": "Travel",
     "type": "Global Package Energy",
     "colors": [
@@ -1574,7 +1574,7 @@
   },
   {
     "id": "66d35414-6bd3-4995-8968-63407e421deb",
-    "title": "honeymoon romantic",
+    "title": "Romantic Honeymoon Packages",
     "industry": "Travel",
     "type": "Honeymoon Romantic",
     "colors": [
@@ -1587,7 +1587,7 @@
   },
   {
     "id": "2d9fd101-4fb7-4452-80ef-89f14ca9d1d5",
-    "title": "Free travel platform",
+    "title": "Travel Platform Solutions",
     "industry": "Travel",
     "type": "FIT Travel Platform",
     "colors": [
@@ -1600,7 +1600,7 @@
   },
   {
     "id": "6d3cc0c6-ceb4-47fd-a8de-6693f0f4ff5e",
-    "title": "K-tourism inbound",
+    "title": "Korean Tourism Inbound",
     "industry": "Travel",
     "type": "K-Tourism Inbound",
     "colors": [
@@ -1613,7 +1613,7 @@
   },
   {
     "id": "0c6e704d-c530-4b36-b570-e0ca1b97430a",
-    "title": "Sustainable Eco Tour",
+    "title": "Eco-Friendly Tours",
     "industry": "Travel",
     "type": "Sustainable Eco Tour",
     "colors": [
@@ -1626,7 +1626,7 @@
   },
   {
     "id": "0da4d0a2-f52e-4f65-a3f0-631aa8c05607",
-    "title": "Travel Agencies IR growth",
+    "title": "Travel Investment Growth",
     "industry": "Travel",
     "type": "Travel Agency IR Growth",
     "colors": [
@@ -1639,7 +1639,7 @@
   },
   {
     "id": "c7b0ff25-68c5-488b-a45a-1e86f6027aa3",
-    "title": "Five Star Luxury",
+    "title": "Luxury Hotel Branding",
     "industry": "Hotel",
     "type": "Five Star Luxury Hotel",
     "colors": [
@@ -1652,7 +1652,7 @@
   },
   {
     "id": "74e8e145-af9e-4a71-ac4a-ef93081accd4",
-    "title": "boutique sensibility Hotels",
+    "title": "Boutique Hotel Branding",
     "industry": "Hotel",
     "type": "Boutique Aesthetic Hotel",
     "colors": [
@@ -1665,7 +1665,7 @@
   },
   {
     "id": "5045e073-d408-46dc-9ed5-d3df2aa4e895",
-    "title": "Business Hotels Solutions",
+    "title": "Corporate Hotel Solutions",
     "industry": "Hotel",
     "type": "Business Hotel B2B Solution",
     "colors": [
@@ -1678,7 +1678,7 @@
   },
   {
     "id": "44d852e1-877f-4f85-bb77-78effdd21721",
-    "title": "resort wellness recreation",
+    "title": "Wellness Resort Marketing",
     "industry": "Hotel",
     "type": "Resort Wellness Retreat",
     "colors": [
@@ -1691,7 +1691,7 @@
   },
   {
     "id": "600feb04-b2fb-4317-ab39-6bc6efd5117b",
-    "title": "Hotels digital marketing",
+    "title": "Digital Marketing Strategy",
     "industry": "Hotel",
     "type": "Hotel Digital Marketing",
     "colors": [
@@ -1704,7 +1704,7 @@
   },
   {
     "id": "1ee1adeb-d1b4-49a6-8e8c-7c3597926c6c",
-    "title": "Hotels ESG green stay",
+    "title": "Eco-Friendly Hotel Initiatives",
     "industry": "Hotel",
     "type": "Hotel ESG Green Stay",
     "colors": [
@@ -1717,7 +1717,7 @@
   },
   {
     "id": "e72769db-3a89-48cb-a23c-be49783527ca",
-    "title": "Hotels annual IR",
+    "title": "Annual IR Presentation",
     "industry": "Hotel",
     "type": "Hotel Group IR Annual",
     "colors": [
@@ -1730,7 +1730,7 @@
   },
   {
     "id": "a9159776-d2ae-4157-8033-9367cf598567",
-    "title": "UNESCO cultural heritage",
+    "title": "Cultural Heritage Branding",
     "industry": "Attraction",
     "type": "UNESCO Heritage Brand",
     "colors": [
@@ -1743,7 +1743,7 @@
   },
   {
     "id": "fd73e9ea-6eee-4fbf-be62-871a55c3083d",
-    "title": "theme park adventure",
+    "title": "Theme Park Marketing",
     "industry": "Attraction",
     "type": "Theme Park Adventure",
     "colors": [
@@ -1756,7 +1756,7 @@
   },
   {
     "id": "4ca94c25-1c9a-4a98-8e6a-6b05144a7791",
-    "title": "natural ecological national park",
+    "title": "National Park Promotion",
     "industry": "Attraction",
     "type": "Nature Ecological Park",
     "colors": [
@@ -1769,7 +1769,7 @@
   },
   {
     "id": "762a6a9b-b558-4abf-813d-3548b6dd87bc",
-    "title": "city ​​tourist spot",
+    "title": "Urban Tourism Hotspots",
     "industry": "Attraction",
     "type": "Urban Tourism Spot",
     "colors": [
@@ -1782,7 +1782,7 @@
   },
   {
     "id": "71197009-ef6b-480e-8f63-842f7c983980",
-    "title": "medical treatment·wellness tourism",
+    "title": "Medical and Wellness Tourism",
     "industry": "Attraction",
     "type": "Medical Wellness Tourism",
     "colors": [
@@ -1795,7 +1795,7 @@
   },
   {
     "id": "69b6b2a7-2190-443a-97b7-0a6a988c2ccc",
-    "title": "Tourist Attractions smart tour",
+    "title": "Smart Tourism Experiences",
     "industry": "Attraction",
     "type": "Smart Tourism Digital",
     "colors": [
@@ -1808,7 +1808,7 @@
   },
   {
     "id": "1d7857bb-dfd1-460d-a479-a4accf2fe1cc",
-    "title": "Local festival branding",
+    "title": "Festival Branding Strategy",
     "industry": "Attraction",
     "type": "Local Festival Branding",
     "colors": [
@@ -1821,7 +1821,7 @@
   },
   {
     "id": "446d7c54-97bc-47c9-9cc8-ab03509d546d",
-    "title": "Full-Service Airlines Prestige",
+    "title": "Airline Prestige Branding",
     "industry": "Airline",
     "type": "Full Service Airline Prestige",
     "colors": [
@@ -1834,7 +1834,7 @@
   },
   {
     "id": "cb1260ee-3661-4fb5-8882-d9bc4180c47a",
-    "title": "LCC Cost-effective energy",
+    "title": "Low-Cost Airline Marketing",
     "industry": "Airline",
     "type": "LCC Value Energy",
     "colors": [
@@ -1847,7 +1847,7 @@
   },
   {
     "id": "aa766d9f-0ffe-4135-84bc-507447847287",
-    "title": "Airlines freight B2B",
+    "title": "Air Cargo Logistics",
     "industry": "Airline",
     "type": "Air Cargo B2B Logistics",
     "colors": [
@@ -1860,7 +1860,7 @@
   },
   {
     "id": "d2dc338f-8637-41a5-8abd-acd18ebc3e76",
-    "title": "AirlinesCompany ESG Eco-Friendly",
+    "title": "Sustainable Aviation",
     "industry": "Airline",
     "type": "Airline ESG Sustainable",
     "colors": [
@@ -1873,7 +1873,7 @@
   },
   {
     "id": "87c888e7-d195-4c51-9928-e6a435fe9c50",
-    "title": "Airlinesbuy digital innovation",
+    "title": "Airline Digital Transformation",
     "industry": "Airline",
     "type": "Airline Digital Innovation",
     "colors": [
@@ -1886,7 +1886,7 @@
   },
   {
     "id": "4c593b6e-e789-48b7-a5b8-7e733eff7e48",
-    "title": "Airlinesfour years IR",
+    "title": "Airline IR Announcements",
     "industry": "Airline",
     "type": "Airline IR Annual Report",
     "colors": [
@@ -1899,7 +1899,7 @@
   },
   {
     "id": "30040019-cdc1-4aa3-ad7f-a79bbdc90e6d",
-    "title": "airport duty free·retail",
+    "title": "Airport Retail Marketing",
     "industry": "Airline",
     "type": "Airport Duty Free Retail",
     "colors": [
@@ -1912,7 +1912,7 @@
   },
   {
     "id": "789a8486-ecf5-4672-b483-4e92663f6242",
-    "title": "warm caring community",
+    "title": "Community Welfare Services",
     "industry": "Welfare",
     "type": "Warm Care Community",
     "colors": [
@@ -1925,7 +1925,7 @@
   },
   {
     "id": "7fecaf3f-0703-4b82-9639-40f7942d3fe5",
-    "title": "Senior welfare care",
+    "title": "Senior Care Services",
     "industry": "Welfare",
     "type": "Senior Welfare Care",
     "colors": [
@@ -1938,7 +1938,7 @@
   },
   {
     "id": "496435e4-0a32-4fe3-ab83-15cff3e0d145",
-    "title": "Supporting the dreams of children and youth",
+    "title": "Youth Support Programs",
     "industry": "Welfare",
     "type": "Youth Dream Support",
     "colors": [
@@ -1951,7 +1951,7 @@
   },
   {
     "id": "69652bdf-18dd-499a-b438-382ca1c9b4c1",
-    "title": "Support for independence of the disabled",
+    "title": "Disability Independence Support",
     "industry": "Welfare",
     "type": "Disability Independence Support",
     "colors": [
@@ -1964,7 +1964,7 @@
   },
   {
     "id": "8d6feba0-ddeb-4409-9f78-e298ec5ef769",
-    "title": "Welfare Centers sponsorship fundraising",
+    "title": "Welfare Sponsorship Fundraising",
     "industry": "Welfare",
     "type": "Welfare Donation Campaign",
     "colors": [
@@ -1977,7 +1977,7 @@
   },
   {
     "id": "c2f878df-c92a-498b-9044-9e57a66ba2d4",
-    "title": "Welfare Centers ESG social values",
+    "title": "ESG Social Values",
     "industry": "Welfare",
     "type": "Welfare ESG Social Value",
     "colors": [
@@ -1990,7 +1990,7 @@
   },
   {
     "id": "2b009cc7-8d13-4e1a-a9c0-7e33f28fc68c",
-    "title": "Welfare Centers digital transformation",
+    "title": "Digital Transformation",
     "industry": "Welfare",
     "type": "Welfare Digital Transform",
     "colors": [
@@ -2003,7 +2003,7 @@
   },
   {
     "id": "2bdc77ea-64c7-4ac2-bdfb-6b25eaed0da4",
-    "title": "Early morning fish market vitality",
+    "title": "Fish Market Vitality",
     "industry": "Fishmarket",
     "type": "Dawn Fish Market Energy",
     "colors": [
@@ -2016,7 +2016,7 @@
   },
   {
     "id": "98ef4d96-e786-4f78-815c-1b9343525788",
-    "title": "Premium seafood direct transaction",
+    "title": "Premium Seafood Transactions",
     "industry": "Fishmarket",
     "type": "Premium Seafood Direct",
     "colors": [
@@ -2029,7 +2029,7 @@
   },
   {
     "id": "a21a91e7-eab1-4935-875e-1ef3ebc7b181",
-    "title": "K-Fishery global export",
+    "title": "Global Seafood Export",
     "industry": "Fishmarket",
     "type": "K-Seafood Global Export",
     "colors": [
@@ -2042,7 +2042,7 @@
   },
   {
     "id": "5b326f88-ed61-4427-bec5-cb5d523ca52c",
-    "title": "Aquatic product safety and hygiene",
+    "title": "Seafood Safety Standards",
     "industry": "Fishmarket",
     "type": "Seafood Safety & Hygiene",
     "colors": [
@@ -2068,7 +2068,7 @@
   },
   {
     "id": "66d2f188-db27-4323-8f7d-f66c56ac65e1",
-    "title": "Fishery ESG sustainability",
+    "title": "Sustainable Fisheries",
     "industry": "Fishmarket",
     "type": "Sustainable Seafood ESG",
     "colors": [
@@ -2081,7 +2081,7 @@
   },
   {
     "id": "72ccb6c7-a856-431c-9e86-33a8e0e7f4de",
-    "title": "Fish Markets digital transformation",
+    "title": "Digital Fish Markets",
     "industry": "Fishmarket",
     "type": "Fish Market Digital Transform",
     "colors": [
@@ -2094,7 +2094,7 @@
   },
   {
     "id": "1306bb9d-6fa6-462d-8e0e-bf7a7603fa59",
-    "title": "luxury nail atelier",
+    "title": "Luxury Nail Atelier",
     "industry": "Nail",
     "type": "Luxury Nail Atelier",
     "colors": [
@@ -2107,7 +2107,7 @@
   },
   {
     "id": "798ba89d-4208-41df-bc65-3e35a060bdaa",
-    "title": "Gel Trend Color Pop",
+    "title": "Gel Color Trends",
     "industry": "Nail",
     "type": "Gel Trend Color Pop",
     "colors": [
@@ -2120,7 +2120,7 @@
   },
   {
     "id": "929672cb-784e-4dba-86d6-23d5aafdd3cd",
-    "title": "nail care wellness",
+    "title": "Nail Care Wellness",
     "industry": "Nail",
     "type": "Nail Care Wellness",
     "colors": [
@@ -2133,7 +2133,7 @@
   },
   {
     "id": "c369bb7c-8eda-4acb-9eec-a8596e9a2703",
-    "title": "Nail Salons Franchises IR",
+    "title": "Franchise Investment Relations",
     "industry": "Nail",
     "type": "Nail Shop Franchise IR",
     "colors": [
@@ -2159,7 +2159,7 @@
   },
   {
     "id": "55e899da-4bb9-4834-bfe6-2ecdbabd8897",
-    "title": "Genderless Nail Studio",
+    "title": "Inclusive Nail Studio",
     "industry": "Nail",
     "type": "Genderless Nail Studio",
     "colors": [
@@ -2172,7 +2172,7 @@
   },
   {
     "id": "294ae8d7-490a-41d0-9937-bc8514b6b023",
-    "title": "Nail Salons SNS growth",
+    "title": "Social Media Growth",
     "industry": "Nail",
     "type": "Nail Shop SNS Growth",
     "colors": [
@@ -2185,7 +2185,7 @@
   },
   {
     "id": "802e016a-27bd-49e8-8159-6ed0a68ae2d2",
-    "title": "Gaming Title Launch",
+    "title": "Game Launch Event",
     "industry": "Game",
     "type": "Game Title Launch",
     "colors": [
@@ -2198,7 +2198,7 @@
   },
   {
     "id": "6e88fa38-b2f3-4ed7-a94d-6e91380809e9",
-    "title": "Gaming Investment IR",
+    "title": "Gaming Investment Relations",
     "industry": "Game",
     "type": "Game Studio IR Pitch",
     "colors": [
@@ -2211,7 +2211,7 @@
   },
   {
     "id": "4324324d-931c-4962-b3d9-41952f14220e",
-    "title": "Mobile Gaming UA Strategy",
+    "title": "Mobile Gaming Strategy",
     "industry": "Game",
     "type": "Mobile Game User Acquisition",
     "colors": [
@@ -2224,7 +2224,7 @@
   },
   {
     "id": "16b09d0f-d0b9-41ba-b7e0-592e03a40e6b",
-    "title": "global esports IP",
+    "title": "Esports IP Strategy",
     "industry": "Game",
     "type": "Global Esports IP",
     "colors": [
@@ -2237,7 +2237,7 @@
   },
   {
     "id": "024b1117-5664-4f62-9ab0-35c1aaef4c03",
-    "title": "Metaverse Gaming Worldview",
+    "title": "Metaverse Gaming Vision",
     "industry": "Game",
     "type": "Metaverse Game World",
     "colors": [
@@ -2250,7 +2250,7 @@
   },
   {
     "id": "1d873408-d867-480b-b69f-b5acf3b9f4a4",
-    "title": "Gaming Development Postmortem",
+    "title": "Game Development Review",
     "industry": "Game",
     "type": "Game Development Post-mortem",
     "colors": [
@@ -2263,7 +2263,7 @@
   },
   {
     "id": "802e3356-0866-4fdf-99c2-505f5ffbf87a",
-    "title": "Gaming Four-Year IR",
+    "title": "Four-Year Gaming Review",
     "industry": "Game",
     "type": "Game Company Annual IR",
     "colors": [
@@ -2276,7 +2276,7 @@
   },
   {
     "id": "46fd2499-4e12-4663-a9dd-3b4f3f647692",
-    "title": "Prestige Developer IR",
+    "title": "Developer Investment Relations",
     "industry": "Construction",
     "type": "Prestige Developer IR",
     "colors": [
@@ -2289,7 +2289,7 @@
   },
   {
     "id": "957aa33b-85f2-45d8-932c-1eb6846415a1",
-    "title": "Apartment sale clean",
+    "title": "Apartment Sales Strategy",
     "industry": "Construction",
     "type": "Apartment Sales Clean",
     "colors": [
@@ -2302,7 +2302,7 @@
   },
   {
     "id": "6f5fa1e0-575a-48bf-91ea-be53232229a7",
-    "title": "smart construction tech",
+    "title": "Smart Construction Technology",
     "industry": "Construction",
     "type": "Smart Construction Tech",
     "colors": [
@@ -2315,7 +2315,7 @@
   },
   {
     "id": "740226d8-4026-42a5-9630-0705b54cc102",
-    "title": "commercial real estate development",
+    "title": "Commercial Real Estate",
     "industry": "Construction",
     "type": "Commercial Real Estate Development",
     "colors": [
@@ -2328,7 +2328,7 @@
   },
   {
     "id": "71212336-aadd-46dc-b834-e39692d8130c",
-    "title": "Green Building ESG Construction",
+    "title": "Green Building Construction",
     "industry": "Construction",
     "type": "Green Building ESG",
     "colors": [
@@ -2341,7 +2341,7 @@
   },
   {
     "id": "bb9abffe-108d-4f6c-9c7d-416149403047",
-    "title": "Safe construction site",
+    "title": "Construction Site Safety",
     "industry": "Construction",
     "type": "Safety First Construction",
     "colors": [
@@ -2354,7 +2354,7 @@
   },
   {
     "id": "2302d807-7cf2-41cb-bf51-9e2087a93366",
-    "title": "Construction Companies annual IR",
+    "title": "Annual Construction Review",
     "industry": "Construction",
     "type": "Construction Company IR",
     "colors": [
@@ -2367,7 +2367,7 @@
   },
   {
     "id": "32c23db1-deeb-4e67-99b9-7bc0d41c5f14",
-    "title": "Trust Real Estate Clean",
+    "title": "Real Estate Trust",
     "industry": "Realtor",
     "type": "Trusted Realtor Clean",
     "colors": [
@@ -2380,7 +2380,7 @@
   },
   {
     "id": "9a3b73c1-40bb-443a-ad63-c976e705dcbb",
-    "title": "Premium Luxury Real Estate",
+    "title": "Luxury Real Estate",
     "industry": "Realtor",
     "type": "Luxury Premium Real Estate",
     "colors": [
@@ -2393,7 +2393,7 @@
   },
   {
     "id": "4bc8d3e3-cfb2-4942-94f0-d1ca83a4a731",
-    "title": "Real estate investment analysis",
+    "title": "Real Estate Analysis",
     "industry": "Realtor",
     "type": "Real Estate Investment Analysis",
     "colors": [
@@ -2406,7 +2406,7 @@
   },
   {
     "id": "4d53595a-6cf9-4c1b-93a1-6ca67f5a0d46",
-    "title": "digital real estate platform",
+    "title": "Digital Real Estate",
     "industry": "Realtor",
     "type": "Digital Real Estate Platform",
     "colors": [
@@ -2419,7 +2419,7 @@
   },
   {
     "id": "f6b96972-8ce6-470e-beee-87ec384ca655",
-    "title": "downtown·Small building specialist",
+    "title": "Urban Real Estate Specialist",
     "industry": "Realtor",
     "type": "Commercial & Small Building",
     "colors": [
@@ -2432,7 +2432,7 @@
   },
   {
     "id": "31f34dba-93ee-4857-ab59-5fa1dc68efbf",
-    "title": "newlyweds·Guide to your first home",
+    "title": "First Home Guide",
     "industry": "Realtor",
     "type": "First Home Buyer Guide",
     "colors": [
@@ -2445,7 +2445,7 @@
   },
   {
     "id": "4f518fb9-8c69-4dcd-bd06-f3fa0a18300c",
-    "title": "redevelopment·reconstruction investment",
+    "title": "Urban Redevelopment Investment",
     "industry": "Realtor",
     "type": "Redevelopment Investment",
     "colors": [
@@ -2471,7 +2471,7 @@
   },
   {
     "id": "d3f416b7-3316-44ee-94f1-87c9c51759a9",
-    "title": "scandinavian minimalist",
+    "title": "Nordic Minimalism",
     "industry": "Interior",
     "type": "Scandinavian Minimal",
     "colors": [
@@ -2484,7 +2484,7 @@
   },
   {
     "id": "9ce0d5f5-8214-48c2-9022-73de5d8c58c2",
-    "title": "modern luxury high end",
+    "title": "Modern Luxury Design",
     "industry": "Interior",
     "type": "Modern Luxury High-End",
     "colors": [
@@ -2497,7 +2497,7 @@
   },
   {
     "id": "7e9cc319-6cce-4ca1-8e76-b9ef0c48a49e",
-    "title": "Apartment All Repair Package",
+    "title": "Apartment Repair Package",
     "industry": "Interior",
     "type": "Apartment Full Renovation",
     "colors": [
@@ -2510,7 +2510,7 @@
   },
   {
     "id": "bbaae9da-7c0d-44a5-9512-b42ee6790c78",
-    "title": "Commercial space branding",
+    "title": "Commercial Branding",
     "industry": "Interior",
     "type": "Commercial Space Branding",
     "colors": [
@@ -2523,7 +2523,7 @@
   },
   {
     "id": "d751fbb5-460d-40da-b20e-87723edcb429",
-    "title": "eco-friendly wellness Interior Design",
+    "title": "Eco-Friendly Interior Design",
     "industry": "Interior",
     "type": "Eco Wellness Interior",
     "colors": [
@@ -2536,7 +2536,7 @@
   },
   {
     "id": "57bc5748-2d13-4a8b-b405-4682aa6148d2",
-    "title": "Interior Design online quote",
+    "title": "Online Design Quotation",
     "industry": "Interior",
     "type": "Interior Online Estimate",
     "colors": [
@@ -2549,7 +2549,7 @@
   },
   {
     "id": "48bd0265-8c28-4461-906c-f6a33f75eb63",
-    "title": "Fine Dining Black",
+    "title": "Fine Dining Experience",
     "industry": "Restaurant",
     "type": "Fine Dining Black",
     "colors": [
@@ -2562,7 +2562,7 @@
   },
   {
     "id": "144ad335-9ba3-462e-8b3b-a3559b0f478c",
-    "title": "Warm Korean food",
+    "title": "Korean Culinary Tradition",
     "industry": "Restaurant",
     "type": "Korean Warmth & Heritage",
     "colors": [
@@ -2575,7 +2575,7 @@
   },
   {
     "id": "ded7f339-329c-4288-8f02-c45a9b945282",
-    "title": "Italian Trattoria",
+    "title": "Italian Dining Experience",
     "industry": "Restaurant",
     "type": "Italian Trattoria Vivace",
     "colors": [
@@ -2588,7 +2588,7 @@
   },
   {
     "id": "3fa23de3-2bdd-4031-91b8-75c181f23a8d",
-    "title": "casual dining energy",
+    "title": "Casual Dining Vibe",
     "industry": "Restaurant",
     "type": "Casual Dining Energy",
     "colors": [
@@ -2601,7 +2601,7 @@
   },
   {
     "id": "72952b2e-160d-43f3-88da-79825ce778c5",
-    "title": "Restaurants Franchises IR",
+    "title": "Franchise Investment Relations",
     "industry": "Restaurant",
     "type": "Restaurant Franchise IR",
     "colors": [
@@ -2627,7 +2627,7 @@
   },
   {
     "id": "74981b21-c304-4de1-ac80-ca0524ee0763",
-    "title": "Local restaurant SNS",
+    "title": "Local Restaurant Social Media",
     "industry": "Restaurant",
     "type": "Local Restaurant SNS",
     "colors": [
@@ -2640,7 +2640,7 @@
   },
   {
     "id": "d95eab12-e490-4322-928b-34e36663db0b",
-    "title": "Arte Cafes Emotion",
+    "title": "Artistic Cafe Branding",
     "industry": "Cafe",
     "type": "Arte Cafe Aesthetic",
     "colors": [
@@ -2653,7 +2653,7 @@
   },
   {
     "id": "f9e72f4b-6eae-4327-a9a6-48f20c738ab2",
-    "title": "modern minimalist Cafes",
+    "title": "Modern Minimalist Cafes",
     "industry": "Cafe",
     "type": "Modern Minimal Cafe",
     "colors": [
@@ -2666,7 +2666,7 @@
   },
   {
     "id": "4aa4a948-135f-407a-a310-bcf0a9dad68f",
-    "title": "Dessert Cafes Sweets",
+    "title": "Dessert Cafe Marketing",
     "industry": "Cafe",
     "type": "Dessert Cafe Sweet",
     "colors": [
@@ -2679,7 +2679,7 @@
   },
   {
     "id": "af3baada-e3f4-4dd4-a068-15e4698e3b5e",
-    "title": "Cafes ESG green",
+    "title": "Sustainable Cafe Branding",
     "industry": "Cafe",
     "type": "Cafe ESG Sustainable",
     "colors": [
@@ -2692,7 +2692,7 @@
   },
   {
     "id": "a93c59c0-29d8-4e28-a4a0-70cab55dd868",
-    "title": "Cafes Franchises Startup",
+    "title": "Cafe Franchise Startups",
     "industry": "Cafe",
     "type": "Cafe Franchise Startup",
     "colors": [
@@ -2705,7 +2705,7 @@
   },
   {
     "id": "fde3ab40-afdf-4812-b1c1-51dfd1278c4b",
-    "title": "Study Cafes Space",
+    "title": "Study Cafe Marketing",
     "industry": "Cafe",
     "type": "Study Cafe Workspace",
     "colors": [
@@ -2718,7 +2718,7 @@
   },
   {
     "id": "ebafd65d-2bee-47e6-b26c-b79607165129",
-    "title": "Global Cafes Brand",
+    "title": "Global Cafe Branding",
     "industry": "Cafe",
     "type": "Global Cafe Brand",
     "colors": [
@@ -2731,7 +2731,7 @@
   },
   {
     "id": "3befe9c5-101c-49a9-9f50-f5d3a7dbe244",
-    "title": "School Nutrition Care",
+    "title": "School Nutrition Management",
     "industry": "Catering",
     "type": "School Nutrition Care",
     "colors": [
@@ -2744,7 +2744,7 @@
   },
   {
     "id": "6f5d35a7-2cab-4643-b867-be2158ec231a",
-    "title": "Corporate PremisesRestaurants Solutions",
+    "title": "Corporate Catering Solutions",
     "industry": "Catering",
     "type": "Corporate Cafeteria Solution",
     "colors": [
@@ -2757,7 +2757,7 @@
   },
   {
     "id": "8e031fe0-46a5-4be3-b805-7e502bb973c7",
-    "title": "Healthcare Medical Food",
+    "title": "Healthcare Catering Services",
     "industry": "Catering",
     "type": "Healthcare Medical Food",
     "colors": [
@@ -2770,7 +2770,7 @@
   },
   {
     "id": "708f32c1-aeef-421b-b81e-2f5aa7d037e9",
-    "title": "catering events",
+    "title": "Event Catering Services",
     "industry": "Catering",
     "type": "Event Catering Premium",
     "colors": [
@@ -2783,7 +2783,7 @@
   },
   {
     "id": "29ee3fef-40fc-4947-9354-0ec2179696b4",
-    "title": "Smart Catering Digital",
+    "title": "Digital Catering Solutions",
     "industry": "Catering",
     "type": "Smart Cafeteria Digital",
     "colors": [
@@ -2796,7 +2796,7 @@
   },
   {
     "id": "815125dd-3277-4087-9e3c-23208519c2e9",
-    "title": "Senior Silver Care Meal",
+    "title": "Elderly Care Catering",
     "industry": "Catering",
     "type": "Senior Silver Care Food",
     "colors": [
@@ -2809,7 +2809,7 @@
   },
   {
     "id": "6566ee70-c662-4407-8a21-20512ece847d",
-    "title": "Catering ESG eco-friendly",
+    "title": "Eco-Friendly Catering",
     "industry": "Catering",
     "type": "Catering ESG Green",
     "colors": [
@@ -2822,7 +2822,7 @@
   },
   {
     "id": "3b99f3ef-59be-408e-a3d7-835ed0d053a9",
-    "title": "Premium food branding",
+    "title": "Premium Food Branding",
     "industry": "Foodmfg",
     "type": "Premium Food Branding",
     "colors": [
@@ -2835,7 +2835,7 @@
   },
   {
     "id": "e332ce53-a526-451a-a07a-332c3f15dbf2",
-    "title": "food safety HACCP",
+    "title": "Food Safety Management",
     "industry": "Foodmfg",
     "type": "Food Safety HACCP",
     "colors": [
@@ -2848,7 +2848,7 @@
   },
   {
     "id": "dc6b6a6d-c7c0-4725-8a90-14eed2435825",
-    "title": "Global K-Food Export",
+    "title": "K-Food Export Strategies",
     "industry": "Foodmfg",
     "type": "K-Food Global Export",
     "colors": [
@@ -2861,7 +2861,7 @@
   },
   {
     "id": "d089e921-3269-4eb3-bd09-e804f32c2719",
-    "title": "Clean Label Natural",
+    "title": "Clean Label Marketing",
     "industry": "Foodmfg",
     "type": "Clean Label Natural",
     "colors": [
@@ -2874,7 +2874,7 @@
   },
   {
     "id": "6f3cf338-9d94-44ae-a32e-0c644a7fb4c5",
-    "title": "Food Manufacturing Smart Factory",
+    "title": "Smart Factory Automation",
     "industry": "Foodmfg",
     "type": "Food Smart Factory",
     "colors": [
@@ -2887,7 +2887,7 @@
   },
   {
     "id": "eec28b04-fdf8-4c35-aca6-1d1d14a1d926",
-    "title": "Food IR Annual Report",
+    "title": "Food Industry Annual Report",
     "industry": "Foodmfg",
     "type": "Food Company IR Annual",
     "colors": [
@@ -2900,7 +2900,7 @@
   },
   {
     "id": "1bbcbe9d-1872-479a-a725-bea8e10a58a7",
-    "title": "HMR Meal kit launch",
+    "title": "Meal Kit Product Launch",
     "industry": "Foodmfg",
     "type": "HMR Meal Kit Launch",
     "colors": [
@@ -2913,7 +2913,7 @@
   },
   {
     "id": "8df007fe-d031-48a8-9f7b-bc22eb7cc103",
-    "title": "24city ​​energy",
+    "title": "24/7 Energy",
     "industry": "Cvs",
     "type": "24H Convenience Energy",
     "colors": [
@@ -2926,7 +2926,7 @@
   },
   {
     "id": "ffee0dc2-28a5-428b-9d73-fca096203635",
-    "title": "Fresh Deli Life",
+    "title": "Fresh Deli Marketing",
     "industry": "Cvs",
     "type": "Fresh Deli Lifestyle",
     "colors": [
@@ -2939,7 +2939,7 @@
   },
   {
     "id": "04963148-0474-4fe9-b32a-1441ca61a336",
-    "title": "Convenience Stores tech retail",
+    "title": "Tech-Driven Retail",
     "industry": "Cvs",
     "type": "CVS Tech Retail",
     "colors": [
@@ -2952,7 +2952,7 @@
   },
   {
     "id": "398611b1-b3ec-4e3e-bce1-37a9cc7829c9",
-    "title": "neighborhood living platform",
+    "title": "Neighborhood Living Hub",
     "industry": "Cvs",
     "type": "Neighborhood Life Platform",
     "colors": [
@@ -2965,7 +2965,7 @@
   },
   {
     "id": "7f05ff62-9fc8-4152-aa24-96ae880c5302",
-    "title": "PB Brand launch",
+    "title": "Private Brand Launch",
     "industry": "Cvs",
     "type": "Private Brand Launch",
     "colors": [
@@ -2978,7 +2978,7 @@
   },
   {
     "id": "591a9009-8033-4031-94ef-863f052b9981",
-    "title": "Convenience Stores ESG green",
+    "title": "Sustainable Convenience",
     "industry": "Cvs",
     "type": "CVS ESG Green",
     "colors": [
@@ -2991,7 +2991,7 @@
   },
   {
     "id": "93485e98-f9bb-454c-828f-4b90c38fe43f",
-    "title": "Franchise owner success story",
+    "title": "Franchise Success Story",
     "industry": "Cvs",
     "type": "Franchise Owner Success",
     "colors": [
@@ -3004,7 +3004,7 @@
   },
   {
     "id": "6f83cc51-31ba-4b86-896f-64e25bfca76f",
-    "title": "luxury retail black",
+    "title": "Luxury Retail Branding",
     "industry": "Department",
     "type": "Luxury Retail Black",
     "colors": [
@@ -3017,7 +3017,7 @@
   },
   {
     "id": "b57fbc0e-c729-4b85-a5f6-900d380c93f9",
-    "title": "Pop-up culture movement",
+    "title": "Pop-Up Store Strategy",
     "industry": "Department",
     "type": "Pop-up Culture Movement",
     "colors": [
@@ -3030,7 +3030,7 @@
   },
   {
     "id": "bd55afaf-1719-47dc-9040-32664968f60c",
-    "title": "Premium F&B curation",
+    "title": "Gourmet Curation",
     "industry": "Department",
     "type": "Premium F&B Curation",
     "colors": [
@@ -3043,7 +3043,7 @@
   },
   {
     "id": "bd69a4c2-06d5-47d4-9198-009d9a466c52",
-    "title": "Department Stores digital transformation",
+    "title": "Digital Transformation Strategy",
     "industry": "Department",
     "type": "Department Store DX",
     "colors": [
@@ -3056,7 +3056,7 @@
   },
   {
     "id": "b6c5d7f9-41cd-43d7-b307-a305f625ed00",
-    "title": "Season Sale Campaign",
+    "title": "Seasonal Sale Strategy",
     "industry": "Department",
     "type": "Season Sale Campaign",
     "colors": [
@@ -3069,7 +3069,7 @@
   },
   {
     "id": "f4c5f671-d83f-4564-b8fd-e15b6ba1b8e2",
-    "title": "Department Stores ESG report",
+    "title": "ESG Performance Report",
     "industry": "Department",
     "type": "Department ESG Report",
     "colors": [
@@ -3082,7 +3082,7 @@
   },
   {
     "id": "e8bde717-5405-43b1-9e7f-792f46f9ad03",
-    "title": "Department Stores IR Annual",
+    "title": "Annual IR Presentation",
     "industry": "Department",
     "type": "Department Store IR Annual",
     "colors": [
@@ -3095,7 +3095,7 @@
   },
   {
     "id": "630aff14-2da3-4932-a026-fd1aa9ed195b",
-    "title": "rocket commerce energy",
+    "title": "E-commerce Growth Strategy",
     "industry": "Ecommerce",
     "type": "Rocket Commerce Energy",
     "colors": [
@@ -3108,7 +3108,7 @@
   },
   {
     "id": "3abedced-a3eb-4d61-94da-71ba5d906b39",
-    "title": "Live Commerce Trend",
+    "title": "Live Commerce Strategies",
     "industry": "Ecommerce",
     "type": "Live Commerce Trend",
     "colors": [
@@ -3121,7 +3121,7 @@
   },
   {
     "id": "1d003f46-3b67-4bd5-b74b-8f2805c1ac9b",
-    "title": "Seller Growth Partner",
+    "title": "E-commerce Growth Partnership",
     "industry": "Ecommerce",
     "type": "Seller Growth Partner",
     "colors": [
@@ -3134,7 +3134,7 @@
   },
   {
     "id": "c9049e6c-19f5-4cfc-ac44-0063f9e43f40",
-    "title": "Personalized shopping",
+    "title": "AI-Driven Shopping",
     "industry": "Ecommerce",
     "type": "Personalized Shopping Artificial Intelligence",
     "colors": [
@@ -3147,7 +3147,7 @@
   },
   {
     "id": "633b8c94-8a0e-42a1-968d-a73528dd9564",
-    "title": "Fulfillment logistics innovation",
+    "title": "Logistics Innovation",
     "industry": "Ecommerce",
     "type": "Fulfillment Logistics Innovation",
     "colors": [
@@ -3160,7 +3160,7 @@
   },
   {
     "id": "8680bf39-ec6e-4d3f-8ff5-54ce3f5cbb58",
-    "title": "global cross border",
+    "title": "Global E-commerce Strategy",
     "industry": "Ecommerce",
     "type": "Global Cross-border Commerce",
     "colors": [
@@ -3173,7 +3173,7 @@
   },
   {
     "id": "3cf9cbe1-7ef1-415d-882a-93331bbbde10",
-    "title": "E-commerce IR deck",
+    "title": "E-commerce Investment Deck",
     "industry": "Ecommerce",
     "type": "E-commerce IR Deck",
     "colors": [
@@ -3186,7 +3186,7 @@
   },
   {
     "id": "4b1c58bf-9cc2-489f-b16b-a99e8224e074",
-    "title": "Franchises IR pitch",
+    "title": "Franchise Investment Pitch",
     "industry": "Franchise",
     "type": "Franchise IR Pitch",
     "colors": [
@@ -3199,7 +3199,7 @@
   },
   {
     "id": "e87d5775-55ac-45e3-9b2e-27fd213453e2",
-    "title": "Brand Power Story",
+    "title": "Franchise Brand Heritage",
     "industry": "Franchise",
     "type": "Brand Power Story",
     "colors": [
@@ -3212,7 +3212,7 @@
   },
   {
     "id": "1f73419a-a7a4-44a0-b58e-45a272b7e085",
-    "title": "Supervisor Operation Manual",
+    "title": "Operational Excellence Manual",
     "industry": "Franchise",
     "type": "Franchise Operations Manual",
     "colors": [
@@ -3225,7 +3225,7 @@
   },
   {
     "id": "deb4c7d8-8689-453c-abbf-2ca9d565affb",
-    "title": "Trendy F&B launch",
+    "title": "Trendy F&B Launch",
     "industry": "Franchise",
     "type": "Trendy F&B Brand Launch",
     "colors": [
@@ -3238,7 +3238,7 @@
   },
   {
     "id": "25f175b1-2835-4852-b40b-46b9c583222d",
-    "title": "Overseas expansion global",
+    "title": "Global Franchise Expansion",
     "industry": "Franchise",
     "type": "Global Franchise Expansion",
     "colors": [
@@ -3251,7 +3251,7 @@
   },
   {
     "id": "6ef03d2a-df56-40a5-8aab-64dffca5771b",
-    "title": "Franchise owner care system",
+    "title": "Franchise Owner Support",
     "industry": "Franchise",
     "type": "Franchisee Care Support",
     "colors": [
@@ -3264,7 +3264,7 @@
   },
   {
     "id": "6cb37fc6-c660-4ec0-aafe-5a801b324221",
-    "title": "Franchises ESG win-win",
+    "title": "Franchise ESG Strategy",
     "industry": "Franchise",
     "type": "Franchise ESG Co-prosperity",
     "colors": [
@@ -3290,7 +3290,7 @@
   },
   {
     "id": "6ad993c4-ef26-43d9-9346-ce373ce7b368",
-    "title": "Health Insurance Care Plan",
+    "title": "Health Insurance Plan",
     "industry": "Insurance",
     "type": "Health Insurance Care Plan",
     "colors": [
@@ -3303,7 +3303,7 @@
   },
   {
     "id": "af0be141-55ac-4ca2-976c-e9e2616ff506",
-    "title": "AutomotiveInsurance direct",
+    "title": "Direct Auto Insurance",
     "industry": "Insurance",
     "type": "Auto Insurance Direct",
     "colors": [
@@ -3316,7 +3316,7 @@
   },
   {
     "id": "bc4208ef-f4a5-4a94-bfb0-30598cbbd77d",
-    "title": "Corporate Insurance Risk Management",
+    "title": "Corporate Risk Management",
     "industry": "Insurance",
     "type": "Corporate Risk Management",
     "colors": [
@@ -3329,7 +3329,7 @@
   },
   {
     "id": "d947e344-37dc-4bab-b94f-50b6b575a756",
-    "title": "pension·aging design",
+    "title": "Pension Planning Design",
     "industry": "Insurance",
     "type": "Pension Retirement Planning",
     "colors": [
@@ -3342,7 +3342,7 @@
   },
   {
     "id": "68b03146-2502-4ce2-9b40-db7e187aeb41",
-    "title": "InsurTech Digital",
+    "title": "InsurTech Innovations",
     "industry": "Insurance",
     "type": "InsurTech Digital",
     "colors": [
@@ -3355,7 +3355,7 @@
   },
   {
     "id": "bd92bb27-fee4-4462-852c-5846f38ed727",
-    "title": "InsuranceCompany ESG Report",
+    "title": "Insurance ESG Report",
     "industry": "Insurance",
     "type": "Insurance ESG Annual Report",
     "colors": [
@@ -3368,7 +3368,7 @@
   },
   {
     "id": "09c15924-da7a-43da-8efe-a20eae4f0987",
-    "title": "Fintech Launching Keynote",
+    "title": "Fintech Launch Keynote",
     "industry": "Fintech",
     "type": "Fintech Product Launch",
     "colors": [
@@ -3381,7 +3381,7 @@
   },
   {
     "id": "11416b84-e6f6-41ad-a741-cb8744cfa070",
-    "title": "Investment Attraction IR Deck",
+    "title": "Investment Pitch Deck",
     "industry": "Fintech",
     "type": "Startup IR Pitch Deck",
     "colors": [
@@ -3394,7 +3394,7 @@
   },
   {
     "id": "7d39c438-0347-40e7-816d-2d5c4b987633",
-    "title": "Open banking API platform",
+    "title": "Open Banking API",
     "industry": "Fintech",
     "type": "Open Banking API Platform",
     "colors": [
@@ -3407,7 +3407,7 @@
   },
   {
     "id": "d53b4bef-d3fb-405c-9788-d1147171d9f7",
-    "title": "Blockchain DeFi",
+    "title": "Blockchain DeFi Solutions",
     "industry": "Fintech",
     "type": "Blockchain DeFi",
     "colors": [
@@ -3420,7 +3420,7 @@
   },
   {
     "id": "d931ee50-ce14-46ea-8d3d-b451c85f6201",
-    "title": "Artificial Intelligence Credit rating solution",
+    "title": "AI Credit Rating",
     "industry": "Fintech",
     "type": "Artificial Intelligence Credit Scoring Solution",
     "colors": [
@@ -3433,7 +3433,7 @@
   },
   {
     "id": "67387b4e-56ae-4c16-8007-d3e289eae5a5",
-    "title": "Simple payment consumer",
+    "title": "Consumer Payment Solutions",
     "industry": "Fintech",
     "type": "Mobile Payment Consumer",
     "colors": [
@@ -3446,7 +3446,7 @@
   },
   {
     "id": "2e392537-1aa2-47d7-9f72-ba20bca342ba",
-    "title": "Asset management robo advisor",
+    "title": "Robo Advisor Solutions",
     "industry": "Fintech",
     "type": "Robo-Advisor Wealth Tech",
     "colors": [
@@ -3459,7 +3459,7 @@
   },
   {
     "id": "7ae95508-47e0-459d-8b4d-8d0eee0bf8c4",
-    "title": "passing drive",
+    "title": "Exam Success Strategy",
     "industry": "Academy",
     "type": "Achievement Drive",
     "colors": [
@@ -3472,7 +3472,7 @@
   },
   {
     "id": "a7b3e5bf-9aee-4bbb-a66f-36d76dc82602",
-    "title": "EdTech Innovation",
+    "title": "EdTech Innovations",
     "industry": "Academy",
     "type": "EduTech Innovation",
     "colors": [
@@ -3485,7 +3485,7 @@
   },
   {
     "id": "9967c409-a426-448d-9f78-8e141d321a78",
-    "title": "Premium small group",
+    "title": "Exclusive Tutoring",
     "industry": "Academy",
     "type": "Premium Small Group",
     "colors": [
@@ -3498,7 +3498,7 @@
   },
   {
     "id": "23504b16-58b8-4298-8b72-b81e480584b6",
-    "title": "Academies Global",
+    "title": "Global Academies",
     "industry": "Academy",
     "type": "Language Academy Global",
     "colors": [
@@ -3511,7 +3511,7 @@
   },
   {
     "id": "9e33cc25-4792-4f4b-9427-da0f92775254",
-    "title": "Arts and Physical Education Creative",
+    "title": "Creative Arts Education",
     "industry": "Academy",
     "type": "Arts Sports Creative",
     "colors": [
@@ -3524,7 +3524,7 @@
   },
   {
     "id": "a41f0605-fe13-44fd-b9a2-2fdfecf04bfe",
-    "title": "coding·STEM future",
+    "title": "STEM Education Future",
     "industry": "Academy",
     "type": "Coding STEM Future",
     "colors": [
@@ -3537,7 +3537,7 @@
   },
   {
     "id": "73a130c8-7739-4141-885e-160aca71e44b",
-    "title": "Academies Franchises IR",
+    "title": "Academy Franchise Growth",
     "industry": "Academy",
     "type": "Academy Franchise IR",
     "colors": [
@@ -3563,7 +3563,7 @@
   },
   {
     "id": "61495103-89ca-4144-98bb-05de5ed4eb17",
-    "title": "nature forest Kindergartens",
+    "title": "Nature Forest Kindergartens",
     "industry": "Kindergarten",
     "type": "Nature Forest Kindergarten",
     "colors": [
@@ -3576,7 +3576,7 @@
   },
   {
     "id": "22aa7b9d-b6b4-43c6-b65e-68dcd933247e",
-    "title": "montessori philosophy",
+    "title": "Montessori Philosophy",
     "industry": "Kindergarten",
     "type": "Montessori Philosophy",
     "colors": [
@@ -3589,7 +3589,7 @@
   },
   {
     "id": "b44f63d2-6f04-4f74-a2ae-3b2c326ea56a",
-    "title": "smart play learning",
+    "title": "Smart Play Learning",
     "industry": "Kindergarten",
     "type": "Smart Play Learning",
     "colors": [
@@ -3615,7 +3615,7 @@
   },
   {
     "id": "80a1823a-112c-48a9-8381-c08615b1d53e",
-    "title": "safe and secure Kindergartens",
+    "title": "Safe and Secure Kindergartens",
     "industry": "Kindergarten",
     "type": "Safe Secure Kindergarten",
     "colors": [
@@ -3628,7 +3628,7 @@
   },
   {
     "id": "8710b6e8-290f-4e3f-aa7a-47d504d24e83",
-    "title": "Fairy Tale Daycare Center",
+    "title": "Fairy Tale Daycare",
     "industry": "Kindergarten",
     "type": "Fairy Tale Nursery",
     "colors": [
@@ -3641,7 +3641,7 @@
   },
   {
     "id": "3abe0762-4b1f-40e5-a7a0-38e315c50d91",
-    "title": "Universities Admissions Brochure",
+    "title": "University Admissions Guide",
     "industry": "University",
     "type": "University Admissions Brochure",
     "colors": [
@@ -3667,7 +3667,7 @@
   },
   {
     "id": "5fa2314e-f492-468a-b48e-6df5c421bfa1",
-    "title": "global campus",
+    "title": "Global Campus",
     "industry": "University",
     "type": "Global Campus Experience",
     "colors": [
@@ -3680,7 +3680,7 @@
   },
   {
     "id": "9855f70f-571e-4337-aafb-772cdeb9e4d9",
-    "title": "employment·career achievements",
+    "title": "Career Achievements",
     "industry": "University",
     "type": "Career Placement Results",
     "colors": [
@@ -3693,7 +3693,7 @@
   },
   {
     "id": "8d332dfc-f4ed-4aad-8843-19d0c5a42746",
-    "title": "social contribution ESG Universities",
+    "title": "University ESG Contributions",
     "industry": "University",
     "type": "University Social Responsibility",
     "colors": [
@@ -3719,7 +3719,7 @@
   },
   {
     "id": "86084c9e-5c9b-4c5e-bdec-1c63b7c6c168",
-    "title": "Talent training for major academies",
+    "title": "Academy Talent Training",
     "industry": "University",
     "type": "Graduate School Talent",
     "colors": [
@@ -3745,7 +3745,7 @@
   },
   {
     "id": "ecd47a44-a8c4-4bb1-a1fb-93112c31aa7e",
-    "title": "K-digital training",
+    "title": "K-Digital Training",
     "industry": "Vocational",
     "type": "K-Digital Training",
     "colors": [
@@ -3758,7 +3758,7 @@
   },
   {
     "id": "53faf456-8b9b-43a2-995e-215389453a8e",
-    "title": "Master Craftsman",
+    "title": "Master Craftsman Training",
     "industry": "Vocational",
     "type": "Master Craftsman Training",
     "colors": [
@@ -3771,7 +3771,7 @@
   },
   {
     "id": "de0d076c-ee0f-43bf-a5af-6d2cd937d5e9",
-    "title": "Re-employment reboot",
+    "title": "Career Reboot",
     "industry": "Vocational",
     "type": "Reemployment Reboot",
     "colors": [
@@ -3784,7 +3784,7 @@
   },
   {
     "id": "28686d0c-59dc-4617-ab8f-4a39c20dd4a6",
-    "title": "Entrepreneurship School",
+    "title": "Entrepreneurship Academy",
     "industry": "Vocational",
     "type": "Startup School",
     "colors": [
@@ -3797,7 +3797,7 @@
   },
   {
     "id": "31083f58-517a-4b89-b675-7ffede3d8985",
-    "title": "Obtain international qualifications",
+    "title": "International Qualifications",
     "industry": "Vocational",
     "type": "International Certification",
     "colors": [
@@ -3810,7 +3810,7 @@
   },
   {
     "id": "80defe61-4356-40e7-bc0c-30afe3e68f60",
-    "title": "public training institute IR",
+    "title": "Public Training Report",
     "industry": "Vocational",
     "type": "Public Training Institute IR",
     "colors": [
@@ -3823,7 +3823,7 @@
   },
   {
     "id": "02234a3b-6dff-4651-aa72-31fb4a424671",
-    "title": "precision medtech",
+    "title": "Precision MedTech",
     "industry": "Meddevice",
     "type": "Precision Medical Technology",
     "colors": [
@@ -3836,7 +3836,7 @@
   },
   {
     "id": "c73173d9-9ed3-415b-9d6f-e82d78258d55",
-    "title": "Global export medical",
+    "title": "Global Medical Exports",
     "industry": "Meddevice",
     "type": "Global Medical Export",
     "colors": [
@@ -3849,7 +3849,7 @@
   },
   {
     "id": "76ca7abb-fbc7-4334-8836-1fcb4bd4f242",
-    "title": "Artificial Intelligence diagnostic solutions",
+    "title": "AI Diagnostic Solutions",
     "industry": "Meddevice",
     "type": "Artificial Intelligence Diagnostic Solution",
     "colors": [
@@ -3862,7 +3862,7 @@
   },
   {
     "id": "0ba81546-907e-437d-a397-ae35d629d0dd",
-    "title": "home rehabilitation equipment",
+    "title": "Home Rehab Equipment",
     "industry": "Meddevice",
     "type": "Home Rehabilitation Device",
     "colors": [
@@ -3875,7 +3875,7 @@
   },
   {
     "id": "be0f27aa-d3a0-4a84-826d-98070f962100",
-    "title": "surgical robot platform",
+    "title": "Surgical Robotics",
     "industry": "Meddevice",
     "type": "Surgical Robotics Platform",
     "colors": [
@@ -3888,7 +3888,7 @@
   },
   {
     "id": "9ac02428-cfef-476a-b91a-2d31ba8916b6",
-    "title": "In vitro diagnosis IVD",
+    "title": "In Vitro Diagnostics",
     "industry": "Meddevice",
     "type": "In Vitro Diagnostics IVD",
     "colors": [
@@ -3901,7 +3901,7 @@
   },
   {
     "id": "e341dbc7-d858-4edd-a5e8-1fc88c0f960d",
-    "title": "Licensing and regulatory strategy",
+    "title": "Licensing and Regulatory Strategy",
     "industry": "Meddevice",
     "type": "Regulatory Affairs Strategy",
     "colors": [
@@ -3914,7 +3914,7 @@
   },
   {
     "id": "503f3130-fe68-4cf9-b56d-20e914ebc59a",
-    "title": "steel power",
+    "title": "Steel Power",
     "industry": "Steel",
     "type": "Industrial Steel Power",
     "colors": [
@@ -3927,7 +3927,7 @@
   },
   {
     "id": "2a9a5065-a080-4350-922f-1f7567afe834",
-    "title": "green steel ESG",
+    "title": "Green Steel ESG",
     "industry": "Steel",
     "type": "Green Steel Sustainability",
     "colors": [
@@ -3940,7 +3940,7 @@
   },
   {
     "id": "46588974-6316-40e1-ac70-669e40b070f4",
-    "title": "IR minimal red",
+    "title": "IR Minimal Red",
     "industry": "Steel",
     "type": "Investor Relations Minimal",
     "colors": [
@@ -3953,7 +3953,7 @@
   },
   {
     "id": "dc114486-3ba6-46dd-885e-28d525b3316e",
-    "title": "Global export power",
+    "title": "Global Export Power",
     "industry": "Steel",
     "type": "Global Export Strategy",
     "colors": [
@@ -3966,7 +3966,7 @@
   },
   {
     "id": "afa80cd2-e2af-49fe-9c51-1a02683431fa",
-    "title": "smart factory DX",
+    "title": "Smart Factory DX",
     "industry": "Steel",
     "type": "Smart Factory Digital Transform",
     "colors": [
@@ -3979,7 +3979,7 @@
   },
   {
     "id": "7be9438d-5126-472f-a9f9-0a41ae8bb6c5",
-    "title": "product portfolio",
+    "title": "Product Portfolio",
     "industry": "Steel",
     "type": "Steel Product Catalogue",
     "colors": [
@@ -3992,7 +3992,7 @@
   },
   {
     "id": "50927dd8-9314-4943-8b8f-6bb22492fdd5",
-    "title": "Safety and health campaign",
+    "title": "Safety and Health Campaign",
     "industry": "Steel",
     "type": "Safety Health Campaign",
     "colors": [
@@ -4005,7 +4005,7 @@
   },
   {
     "id": "132fb4b0-ac46-4493-9f49-3c6ac52417b4",
-    "title": "deep ocean blue",
+    "title": "Deep Ocean Blue",
     "industry": "Shipbuilding",
     "type": "Deep Ocean Maritime",
     "colors": [
@@ -4018,7 +4018,7 @@
   },
   {
     "id": "b6675634-fc0c-49d4-86e1-33848df80ecb",
-    "title": "greenship eco",
+    "title": "Greenship Eco",
     "industry": "Shipbuilding",
     "type": "Green Ship Eco Future",
     "colors": [
@@ -4044,7 +4044,7 @@
   },
   {
     "id": "71146c91-a62b-451c-b9f1-5d62001d99ab",
-    "title": "Global order strategy",
+    "title": "Global Order Strategy",
     "industry": "Shipbuilding",
     "type": "Global Order Strategy",
     "colors": [
@@ -4057,7 +4057,7 @@
   },
   {
     "id": "8d229c31-e40d-4653-9744-329485a48e08",
-    "title": "smart ship 4.0",
+    "title": "Smart Ship 4.0",
     "industry": "Shipbuilding",
     "type": "Smart Ship Industry 4.0",
     "colors": [
@@ -4070,7 +4070,7 @@
   },
   {
     "id": "27d4b546-0166-4180-a995-6dfbc2b74767",
-    "title": "HSE safety report",
+    "title": "HSE Safety Report",
     "industry": "Shipbuilding",
     "type": "HSE Safety Report",
     "colors": [
