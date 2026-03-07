@@ -100,15 +100,12 @@
     </nav>
     <section class="flex flex-col px-6 md:px-12 pt-10 pb-20">
         <div class="max-w-5xl mx-auto w-full">
-            <h1 class="text-5xl md:text-6xl font-black tracking-tighter mb-6">GENERATE <span
-                    class="serif italic font-medium lowercase">Your Own</span></h1>
+            <h1 class="text-5xl md:text-6xl font-black tracking-tighter mb-6">Slide to <span
+                    class="serif italic font-medium lowercase">Prompt</span></h1>
             <p class="text-lg md:text-xl text-zinc-400 font-light mb-16 leading-relaxed max-w-3xl">
-                Have an existing slide deck you love? You can extract its entire visual system and turn it into a
-                reusable slide design prompt. Below are the specialized prompts we use to generate slide design prompts.
-                Copy them into your preferred AI tool (Claude or Google Gems) to create a project, gems, or skill based
-                on your usage scenario. Then follow the instructions to upload your reference deck, answer a few
-                questions, and let it generate perfect slide design prompts for you!
-            </p>
+                Have an existing slide deck you love?<br> Turn your favorite slide designs into reusable AI prompts.
+                Upload
+                once, replicate the style anywhere.</p>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
                 <!-- Claude Prompt -->
@@ -119,13 +116,13 @@
                             <h2
                                 class="text-xl md:text-2xl font-bold flex items-start sm:items-center gap-3 tracking-tight">
                                 <span class="w-3 h-3 rounded-full bg-[#d97757] mt-1.5 sm:mt-0 shrink-0"></span>
-                                Claude Code and Antigravity
+                                Skill for Claude Code and Antigravity
                             </h2>
                             <p class="text-sm text-white/50 leading-relaxed max-w-sm">Use as a skill with AI agent tools
                                 like Claude Code and Antigravity</p>
                         </div>
                         <button class="copy-btn shrink-0 w-full sm:w-auto text-center mt-2 sm:mt-0"
-                            onclick="copyText('claude-content', this)">Copy Prompt</button>
+                            onclick="copyText('claude-content', this)">Copy</button>
                     </div>
                     <div class="p-8 h-[600px] overflow-y-auto custom-scrollbar relative">
                         <!-- We use JS to populate so formatting is preserved -->
@@ -148,7 +145,7 @@
                                 Google Gems, or custom GPTs</p>
                         </div>
                         <button class="copy-btn shrink-0 w-full sm:w-auto text-center mt-2 sm:mt-0"
-                            onclick="copyText('gems-content', this)">Copy Prompt</button>
+                            onclick="copyText('gems-content', this)">Copy</button>
                     </div>
                     <div class="p-8 h-[600px] overflow-y-auto custom-scrollbar relative">
                         <pre id="gems-content"
