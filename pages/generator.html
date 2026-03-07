@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generate Your Own Prompts | MonoMind</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;1,500;1,700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;1,500;1,700&display=swap" rel="stylesheet">
     <style>
         :root {
             --bg-color: #000000;
@@ -16,39 +13,20 @@
             --text-secondary: #a1a1aa;
             --border-color: rgba(255, 255, 255, 0.1);
         }
-
         body {
             background-color: var(--bg-color);
             color: var(--text-primary);
             font-family: 'Inter', sans-serif;
             -webkit-font-smoothing: antialiased;
         }
-
-        .serif {
-            font-family: 'Playfair Display', serif;
-        }
-
-        .section-padding {
-            padding: 80px 2rem;
-        }
-
+        .serif { font-family: 'Playfair Display', serif; }
+        .section-padding { padding: 80px 2rem; }
+        
         /* Custom scrollbar */
-        ::-webkit-scrollbar {
-            width: 8px;
-        }
-
-        ::-webkit-scrollbar-track {
-            background: rgba(0, 0, 0, 0.1);
-        }
-
-        ::-webkit-scrollbar-thumb {
-            background: rgba(255, 255, 255, 0.2);
-            border-radius: 4px;
-        }
-
-        ::-webkit-scrollbar-thumb:hover {
-            background: rgba(255, 255, 255, 0.3);
-        }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: rgba(0,0,0,0.1); }
+        ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.3); }
 
         .copy-btn {
             background: #2563eb;
@@ -64,70 +42,108 @@
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             white-space: nowrap;
         }
-
-        .copy-btn:hover {
+        .copy-btn:hover { 
             background: #1d4ed8;
             transform: translateY(-2px);
             box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
         }
-
-        .copy-btn:active {
-            transform: translateY(0);
-        }
+        .copy-btn:active { transform: translateY(0); }
     </style>
-    <link rel="icon" type="image/png" href="../assets/00_Logo_STD_bluebg.png">
 
     <meta name="description" content="Upgrade your NotebookLM slide output with our curated library of premium slide design prompts. Select an industry to begin.">
     <meta property="og:title" content="Slide Design Prompts | MonoMind">
     <meta property="og:description" content="Upgrade your NotebookLM slide output with our curated library of premium slide design prompts.">
-    <meta property="og:image" content="https://sdp.monomind.one/assets/monomind.png">
-    <meta property="og:url" content="https://sdp.monomind.one/">
+    <meta property="og:image" content="https://slide-prompts.monomind.one/assets/monomind.png">
+    <meta property="og:url" content="https://slide-prompts.monomind.one/">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Slide Design Prompts | MonoMind">
     <meta name="twitter:description" content="Upgrade your NotebookLM slide output with our curated library of premium slide design prompts.">
-    <meta name="twitter:image" content="https://sdp.monomind.one/assets/monomind.png">
+    <meta name="twitter:image" content="https://slide-prompts.monomind.one/assets/monomind.png">
 </head>
-
 <body class="overflow-x-hidden">
     <nav class="w-full z-50 px-6 md:px-12 py-8 flex justify-between items-center">
-        <div class="h-6 flex items-center gap-2 cursor-pointer transition-opacity hover:opacity-80"
-            onclick="window.parent !== window ? window.parent.postMessage({type: 'SHOW_HOME'}, '*') : window.location.href='NotebookLM Slide Prompts by MonoMind.html'">
+        <div class="h-6 flex items-center gap-2 cursor-pointer transition-opacity hover:opacity-80" onclick="window.parent !== window ? window.parent.postMessage({type: 'SHOW_HOME'}, '*') : window.location.href='/'">
             <span class="text-xl font-black tracking-tighter uppercase">monomind</span>
         </div>
     </nav>
     <section class="flex flex-col px-6 md:px-12 pt-10 pb-20">
-        <div class="max-w-7xl mx-auto w-full">
-            <h1 class="text-5xl md:text-6xl font-black tracking-tighter mb-6">GENERATE <span
-                    class="serif italic font-medium lowercase">Your Own</span></h1>
+        <div class="max-w-5xl mx-auto w-full">
+            <h1 class="text-5xl md:text-6xl font-black tracking-tighter mb-6">GENERATE <span class="serif italic font-medium lowercase">Your Own</span></h1>
             <p class="text-lg md:text-xl text-zinc-400 font-light mb-16 leading-relaxed max-w-3xl">
-                Have an existing slide deck you love? You can extract its entire visual system and turn it into a
-                reusable slide style prompt. Below are the specialized system instructions we use. Copy them into
-                your preferred AI tool (Claude or Google Gems), upload your reference deck, and let it generate perfect
-                NotebookLM prompts for you!
+                Have an existing slide deck you love? You can extract its entire visual system and turn it into a reusable NotebookLM style prompt. Below are the specialized system instructions we use. Copy them into your preferred AI tool (Claude or Google Gems), upload your reference deck, and let it generate perfect NotebookLM prompts for you!
             </p>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
                 <!-- Claude Prompt -->
                 <div class="border border-white/10 rounded-2xl bg-white/[0.02] overflow-hidden relative group">
-                    <div
-                        class="p-8 border-b border-white/10 bg-white/[0.03] flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
+                    <div class="p-8 border-b border-white/10 bg-white/[0.03] flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
                         <div class="flex-1">
                             <h2 class="text-2xl font-bold mb-2 flex items-center gap-3">
-                                <span class="w-3 h-3 rounded-full bg-[#d97757]"></span>
+                                <span class="w-3 h-3 rounded-full bg-[#d97757]"></span> 
                                 Claude System Prompt
                             </h2>
-                            <p class="text-sm text-white/50 leading-tight">Optimized for Claude Projects or Claude Code
-                                Skills</p>
+                            <p class="text-sm text-white/50 leading-tight">Optimized for Claude Projects or Code</p>
                         </div>
-                        <button class="copy-btn shrink-0 self-start sm:self-auto"
-                            onclick="copyText('claude-content', this)">Copy Prompt</button>
+                        <button class="copy-btn shrink-0 self-start sm:self-auto" onclick="copyText('claude-content', this)">Copy Prompt</button>
                     </div>
-                    <div class="p-6 h-[800px] overflow-y-auto custom-scrollbar relative">
-                        <pre id="claude-content"
-                            class="text-[11px] text-zinc-400 whitespace-pre-wrap font-mono leading-relaxed">---
+                   <div class="p-8 h-[600px] overflow-y-auto custom-scrollbar relative">
+                       <!-- We use JS to populate so formatting is preserved -->
+                       <pre id="claude-content" class="text-xs text-zinc-400 whitespace-pre-wrap font-mono leading-relaxed"></pre>
+                   </div>
+                </div>
+
+                <!-- Gems Prompt -->
+                <div class="border border-white/10 rounded-2xl bg-white/[0.02] overflow-hidden relative group">
+                    <div class="p-8 border-b border-white/10 bg-white/[0.03] flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
+                        <div class="flex-1">
+                            <h2 class="text-2xl font-bold mb-2 flex items-center gap-3">
+                                <span class="w-3 h-3 rounded-full bg-[#4285F4]"></span> 
+                                Google Gems Instruction
+                            </h2>
+                            <p class="text-sm text-white/50 leading-tight">Optimized for Gems Custom Instructions</p>
+                        </div>
+                        <button class="copy-btn shrink-0 self-start sm:self-auto" onclick="copyText('gems-content', this)">Copy Prompt</button>
+                    </div>
+                   <div class="p-8 h-[600px] overflow-y-auto custom-scrollbar relative">
+                       <pre id="gems-content" class="text-xs text-zinc-400 whitespace-pre-wrap font-mono leading-relaxed"></pre>
+                   </div>
+                </div>
+            </div>
+            
+            <div class="mt-20 p-8 border border-white/10 rounded-xl bg-white/[0.02] max-w-3xl mx-auto text-center">
+                 <h3 class="text-lg font-bold mb-4 uppercase tracking-widest">How it works</h3>
+                 <ol class="text-white/60 text-sm md:text-base text-left space-y-4 font-light max-w-xl mx-auto">
+                     <li><strong class="text-white">1.</strong> Copy one of the system instructions above.</li>
+                     <li><strong class="text-white">2.</strong> Paste it into the 'System Instructions' of your AI tool.</li>
+                     <li><strong class="text-white">3.</strong> Upload your reference slide deck (PDF or screenshots).</li>
+                     <li><strong class="text-white">4.</strong> The AI will instantly generate a master NotebookLM layout prompt!</li>
+                 </ol>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+        function copyText(elementId, btn) {
+            const text = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(text).then(() => {
+                const originalText = btn.innerText;
+                btn.innerText = 'Copied!';
+                btn.style.background = 'white';
+                btn.style.color = 'black';
+                setTimeout(() => {
+                    btn.innerText = originalText;
+                    btn.style.background = '#2563eb';
+                    btn.style.color = 'white';
+                    btn.style.boxShadow = 'none';
+                    btn.style.transform = 'translateY(0)';
+                }, 2000);
+            });
+        }
+        
+        document.getElementById('claude-content').textContent = `---
 name: notebooklm-slide-style-from-deck
-description: >
+description: &gt;
   Analyze slide decks (PDFs or screenshots) to extract their full visual design system
   and generate NotebookLM-ready slide style prompts, including a master multi-layout
   prompt plus per-layout prompts for all distinct page templates. Use when the user
@@ -307,7 +323,7 @@ Generate a single, coherent prompt (≈200–350 words) that:
 
 Structure:
 
-- Style name (one line, e.g. `Bold Yellow Editorial – Adaptive Multi-Layout System`)
+- Style name (one line, e.g. \`Bold Yellow Editorial – Adaptive Multi-Layout System\`)
 - Paragraph(s) describing:
   - Colors (with hex codes)
   - Typography (families, weights, hierarchy)
@@ -326,7 +342,7 @@ Examples:
 
 - **MANDATORY COPYRIGHT FOOTER**: At the end of the Master prompt, ALWAYS include this instruction:
 
-> **Footer branding (all slides):** Include a small copyright notice in the bottom-right or bottom-center footer of every slide that reads "MonoMind by 1TM" in small text (10-12pt), using a muted text color that doesn't distract from main content but remains legible. Position consistently across all layout types.
+&gt; **Footer branding (all slides):** Include a small copyright notice in the bottom-right or bottom-center footer of every slide that reads "MonoMind by 1TM" in small text (10-12pt), using a muted text color that doesn't distract from main content but remains legible. Position consistently across all layout types.
 
 If the deck has many layouts (e.g. 16), you may group some into families, but **all 16 layouts must be either explicitly described or clearly covered**.
 
@@ -347,19 +363,19 @@ For each layout in your Layout Inventory, generate a focused prompt (≈100–15
 
 **Every per-layout prompt MUST end with:**
 
-> **Footer branding:** Include "MonoMind by 1TM" in small text (10-12pt) in the bottom-right or bottom-center footer, using muted text color.
+&gt; **Footer branding:** Include "MonoMind by 1TM" in small text (10-12pt) in the bottom-right or bottom-center footer, using muted text color.
 
 Template to follow:
 
-- One line: `**[Layout Name] – NotebookLM Prompt**`
+- One line: \`**[Layout Name] – NotebookLM Prompt**\`
 - One line: when to use (e.g. "Use this when creating ___ slides")
 - 1–2 paragraphs describing the layout in detail
 - Final sentence: Footer branding instruction
 
 Example (structure only):
 
-> **Two-Column Comparison – NotebookLM Prompt**  
-> Use this prompt when creating slides that compare two options or pair an image with explanatory text. Design a slide with… [layout details] …Footer branding: Include "MonoMind by 1TM" in small text (10-12pt) in the bottom-right or bottom-center footer, using muted text color.
+&gt; **Two-Column Comparison – NotebookLM Prompt**  
+&gt; Use this prompt when creating slides that compare two options or pair an image with explanatory text. Design a slide with… [layout details] …Footer branding: Include "MonoMind by 1TM" in small text (10-12pt) in the bottom-right or bottom-center footer, using muted text color.
 
 Ensure there is **one prompt per layout**, even if the deck has many layouts (e.g., 16).
 
@@ -434,27 +450,9 @@ So that NotebookLM and the user can:
 - **All generated slides will automatically include the "MonoMind by 1TM" copyright footer**
 
 Always keep this goal in mind:  
-**Make it as easy as possible for the user to get NotebookLM-generated slides that look and behave like the source deck, with consistent MonoMind branding in the footer of every slide.**</pre>
-                    </div>
-                </div>
-
-                <!-- Gems Prompt -->
-                <div class="border border-white/10 rounded-2xl bg-white/[0.02] overflow-hidden relative group">
-                    <div
-                        class="p-8 border-b border-white/10 bg-white/[0.03] flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
-                        <div class="flex-1">
-                            <h2 class="text-2xl font-bold mb-2 flex items-center gap-3">
-                                <span class="w-3 h-3 rounded-full bg-[#4285F4]"></span>
-                                Google Gems Instruction
-                            </h2>
-                            <p class="text-sm text-white/50 leading-tight">Optimized for Gems Custom Instructions</p>
-                        </div>
-                        <button class="copy-btn shrink-0 self-start sm:self-auto"
-                            onclick="copyText('gems-content', this)">Copy Prompt</button>
-                    </div>
-                    <div class="p-6 h-[800px] overflow-y-auto custom-scrollbar relative">
-                        <pre id="gems-content"
-                            class="text-[11px] text-zinc-400 whitespace-pre-wrap font-mono leading-relaxed"># NotebookLM Slide Template Design Analyzer &amp; Prompt Generator
+**Make it as easy as possible for the user to get NotebookLM-generated slides that look and behave like the source deck, with consistent MonoMind branding in the footer of every slide.**
+`;
+        document.getElementById('gems-content').textContent = `# NotebookLM Slide Template Design Analyzer &amp; Prompt Generator
 
 ## 🎯 Role &amp; Purpose
 You are an **expert visual design analyst and prompt engineer** specializing in converting existing slide designs into detailed NotebookLM-compatible style prompts. Your primary function is to analyze uploaded slide decks (PDF, screenshots, or images) and generate precise, copy-paste-ready style prompts that recreate the visual design language in NotebookLM's slide generation system.
@@ -551,19 +549,19 @@ List all detected unique layouts with:
 *   **Key distinguishing features** (what makes it different from other layouts)
 
 **Example:**
-```
+\`\`\`
 **Layout A: Title/Cover Slide** (Slides 1, 15) - Purpose: Opening and section dividers - Structure: Centered, full-bleed colored background - Key features: 70pt bold headline, minimal subtitle, logo in corner
-```
+\`\`\`
  
-```
+\`\`\`
 **Layout B: Bullet Content Slide** (Slides 2-5, 8-12) - Purpose: Main content delivery with bullet points - Structure: Left-aligned, white background, 30% left margin - Key features: 40pt heading, 18pt bullets, yellow accent bar
-```
+\`\`\`
 
 
 ### **Section 3: Master NotebookLM Prompt (Universal)**
 A comprehensive prompt that captures the OVERALL design system and instructs NotebookLM to intelligently vary layouts. Use the following structure:
 
-```text
+\`\`\`text
 [STYLE NAME] - Adaptive Multi-Layout System
 Design the slide deck with [overall aesthetic description]. Use a flexible layout system that adapts to content type while maintaining consistent branding.
 
@@ -588,13 +586,13 @@ Maintain [spacing description] with [bullet/paragraph preference]. Each slide sh
 
 **Overall Tone:**
 [Emotional qualities], suitable for [audience]. The system should feel [cohesive/varied/dynamic] while maintaining strong brand consistency through [key consistent elements].
-```
+\`\`\`
 
 ### **Section 4: Individual Layout-Specific Prompts**
 Generate separate, focused prompts for EACH detected layout. Use the structure below:
 
 **Template: Layout-Specific Prompt Structure**
-```text
+\`\`\`text
 **[Layout Name] - NotebookLM Prompt**
 *Use this prompt when creating [specific content type]*
 Design [this specific slide type] with [layout-specific description]. 
@@ -604,7 +602,7 @@ Layout structure: [detailed spatial description - margins, alignment, proportion
 Visual elements: [layout-specific graphics, photos, decorative elements]. **CRITICAL: Include the copyright note 'monomind by 1TM' in the footer.**
 Content: [expected content structure] with [density level].
 Tone: [emotional tone for this layout type].
-```
+\`\`\`
 
 ### **Section 5: Implementation Guide**
 *   **How to use multi-layout prompts in NotebookLM:**
@@ -687,26 +685,26 @@ If user describes a brand verbally:
 ---
 
 ### **Master NotebookLM Prompt (Universal)**
-```text
+\`\`\`text
 Bold Yellow Energy - Adaptive Multi-Layout System
 Design the slide deck with a bold, high-impact editorial style inspired by Swiss International Typography...
 [Full Prompt Details...]
-```
+\`\`\`
 
 ---
 
 ### **Individual Layout-Specific Prompts**
 **Layout A: Title Slide**
-```text
+\`\`\`text
 *Use this prompt when creating opening slides or major section breaks*
 Design a title slide with maximum impact... [Specific composition details]
-```
+\`\`\`
 
 **Layout B: Standard Bullet Content**
-```text
+\`\`\`text
 *Use this prompt when creating informational slides with bullet points*
 Design a content slide with strong left-aligned structure... [Specific margin/bar details]
-```
+\`\`\`
 
 ---
 
@@ -741,46 +739,7 @@ You have access to the research from the **"awesome-notebookLM-prompts"** GitHub
 &gt; 1. Detect multiple layouts.
 &gt; 2. Generate Master Prompt for smart choice.
 &gt; 3. Generate Layout-specific prompts for precision.
-&gt; 4. Map content types to layouts.
-
-</pre>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mt-20 p-8 border border-white/10 rounded-xl bg-white/[0.02] max-w-3xl mx-auto text-center">
-                <h3 class="text-lg font-bold mb-4 uppercase tracking-widest">How it works</h3>
-                <ol class="text-white/60 text-sm md:text-base text-left space-y-4 font-light max-w-xl mx-auto">
-                    <li><strong class="text-white">1.</strong> Copy one of the system instructions above.</li>
-                    <li><strong class="text-white">2.</strong> Paste it into the 'System Instructions'/'Instructions'
-                        field of your AI tool.</li>
-                    <li><strong class="text-white">3.</strong> Upload your reference slide deck (PDF or screenshots).
-                    </li>
-                    <li><strong class="text-white">4.</strong> The AI will instantly generate a master NotebookLM layout
-                        prompt!</li>
-                </ol>
-            </div>
-        </div>
-    </section>
-
-    <script>
-        function copyText(elementId, btn) {
-            const text = document.getElementById(elementId).textContent;
-            navigator.clipboard.writeText(text).then(() => {
-                const originalText = btn.innerText;
-                btn.innerText = 'Copied!';
-                btn.style.background = 'white';
-                btn.style.color = 'black';
-                setTimeout(() => {
-                    btn.innerText = originalText;
-                    btn.style.background = '#2563eb';
-                    btn.style.color = 'white';
-                    btn.style.boxShadow = 'none';
-                    btn.style.transform = 'translateY(0)';
-                }, 2000);
-            });
-        }
+&gt; 4. Map content types to layouts.`;
     </script>
 </body>
-
 </html>

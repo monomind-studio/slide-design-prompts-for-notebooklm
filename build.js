@@ -59,17 +59,17 @@ const htmlTemplate = `<!DOCTYPE html>
     <meta name="description" content="Upgrade your NotebookLM slide output with our curated library of premium slide design prompts. Select an industry to begin.">
     <meta property="og:title" content="Slide Design Prompts | MonoMind">
     <meta property="og:description" content="Upgrade your NotebookLM slide output with our curated library of premium slide design prompts.">
-    <meta property="og:image" content="https://sdp.monomind.one/assets/monomind.png">
-    <meta property="og:url" content="https://sdp.monomind.one/">
+    <meta property="og:image" content="https://slide-prompts.monomind.one/assets/monomind.png">
+    <meta property="og:url" content="https://slide-prompts.monomind.one/">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Slide Design Prompts | MonoMind">
     <meta name="twitter:description" content="Upgrade your NotebookLM slide output with our curated library of premium slide design prompts.">
-    <meta name="twitter:image" content="https://sdp.monomind.one/assets/monomind.png">
+    <meta name="twitter:image" content="https://slide-prompts.monomind.one/assets/monomind.png">
 </head>
 <body class="overflow-x-hidden">
     <nav class="w-full z-50 px-6 md:px-12 py-8 flex justify-between items-center">
-        <div class="h-6 flex items-center gap-2 cursor-pointer transition-opacity hover:opacity-80" onclick="window.parent !== window ? window.parent.postMessage({type: 'SHOW_HOME'}, '*') : window.location.href='NotebookLM Slide Prompts by MonoMind.html'">
+        <div class="h-6 flex items-center gap-2 cursor-pointer transition-opacity hover:opacity-80" onclick="window.parent !== window ? window.parent.postMessage({type: 'SHOW_HOME'}, '*') : window.location.href='/'">
             <span class="text-xl font-black tracking-tighter uppercase">monomind</span>
         </div>
     </nav>
