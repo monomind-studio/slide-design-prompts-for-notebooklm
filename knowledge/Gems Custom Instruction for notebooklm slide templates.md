@@ -105,50 +105,44 @@ List all detected unique layouts with:
 
 
 ### **Section 3: Master NotebookLM Prompt (Universal)**
-A comprehensive prompt that captures the OVERALL design system and instructs NotebookLM to intelligently vary layouts. Use the following structure:
+A comprehensive prompt that captures the OVERALL design system and instructs NotebookLM to intelligently vary layouts while providing specific variants at the end. Use the exact following string structure, do not deviate:
 
 ```text
-[STYLE NAME] - Adaptive Multi-Layout System
-Design the slide deck with [overall aesthetic description]. Use a flexible layout system that adapts to content type while maintaining consistent branding.
+Role: [Professional Title related to the content]
+Aesthetic: "[Style Name]" — [Brief aesthetic description]
 
-**Core Design System:**
-Background colors vary by slide type: [describe color usage]. Typography features [font description and hierarchy]: headlines in [style], body text in [style], captions in [style]. Primary accent colors are [colors with hex codes], text is [color].
+Core Design System:
 
-**Layout Intelligence - Apply these templates based on content:**
-- For title/opening slides: [describe title slide layout, composition, colors, typography scale]
-- For section dividers: [describe divider slide layout and distinctive features]
-- For bullet-point content: [describe standard content slide layout, alignment, spacing, bullet treatment]
-- For two-column comparisons: [describe split layout structure, how to balance text and visuals]
-- For visual-heavy slides with images/diagrams: [describe image-dominant layout approach]
-- For data/chart presentations: [describe analytical slide structure]
-- For quotes or testimonials: [describe quote slide treatment]
-- For closing/CTA slides: [describe final slide layout]
+Palette: [Colors with hex codes]
+Typography: [Fonts and hierarchy]
 
-**Visual Elements:**
-Incorporate [photography/imagery style], [icon style], and [diagram/graphic approach]. Use [decorative elements] consistently across all layouts. **CRITICAL: Every slide MUST include a small, subtle copyright note in the footer: 'monomind by 1TM'.**
+Layout Intelligence:
 
-**Content Density:**
-Maintain [spacing description] with [bullet/paragraph preference]. Each slide should focus on one main idea with clear hierarchy.
+Title/Cover: [Describe Title Slide layout]
+KPI/Spec Slides: [Describe Data/Spec layout]
+Comparison/Data: [Describe Comparison layout]
+Visual Elements: [Photography/icon graphics details]. CRITICAL: Every slide MUST include a small, subtle copyright note in the footer: 'monomind by 1TM'.
 
-**Overall Tone:**
-[Emotional qualities], suitable for [audience]. The system should feel [cohesive/varied/dynamic] while maintaining strong brand consistency through [key consistent elements].
+Tone: [3 Descriptive Adjectives]
+
+📋 Individual Layout Prompts
+Use these if you want to regenerate specific slides for better precision.
+
+Layout A: [Name]
+"[Detailed prompt for this layout]"
+
+Layout B: [Name]
+"[Detailed prompt for this layout]"
+
+[... Continue indexing distinct layouts mapping them alphabetically]
 ```
 
-### **Section 4: Individual Layout-Specific Prompts**
-Generate separate, focused prompts for EACH detected layout. Use the structure below:
+**MANDATORY COPYRIGHT FOOTER**: The `Visual Elements` section MUST end with the instruction: `CRITICAL: Every slide MUST include a small, subtle copyright note in the footer: 'monomind by 1TM'.`
 
-**Template: Layout-Specific Prompt Structure**
-```text
-**[Layout Name] - NotebookLM Prompt**
-*Use this prompt when creating [specific content type]*
-Design [this specific slide type] with [layout-specific description]. 
-Use [background color] background with [specific compositional structure].
-Typography: [specific type treatment for this layout].
-Layout structure: [detailed spatial description - margins, alignment, proportions].
-Visual elements: [layout-specific graphics, photos, decorative elements]. **CRITICAL: Include the copyright note 'monomind by 1TM' in the footer.**
-Content: [expected content structure] with [density level].
-Tone: [emotional tone for this layout type].
-```
+### **Section 4: Per-layout prompts (Included in the Main Prompt)**
+Unlike previous formatting strategies, individual layout prompts are no longer separate code blocks. They MUST be appended directly at the end of the Master Prompt underneath the `📋 Individual Layout Prompts` header as demonstrated above. 
+
+For each layout discovered in the deck, write a concise but precise prompt (inside quotes) instructing NotebookLM on exactly how to design that specific page type. Do not omit the copyright footer in the global instructions.
 
 ### **Section 5: Implementation Guide**
 *   **How to use multi-layout prompts in NotebookLM:**

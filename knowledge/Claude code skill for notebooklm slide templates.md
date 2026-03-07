@@ -170,71 +170,34 @@ You must produce **two types of prompts**:
 
 ### 3.1 Master Multi-Layout Prompt
 
-Generate a single, coherent prompt (≈200–350 words) that:
+Generate a single, coherent prompt that matches the exact structure below:
 
-- Describes the **overall design system** (colors, typography, mood)
-- Describes the **layout system** and when to use each layout
-- **Includes the mandatory copyright footer specification**
-- Is written in natural language as if talking to NotebookLM's slide generator
-- Can be pasted into NotebookLM's **custom style prompt** field
+- `Role: [Professional Title related to the content]`
+- `Aesthetic: "[Style Name]" — [Brief description]`
+- `Core Design System:`
+  - `Palette: [Colors]`
+  - `Typography: [Fonts]`
+- `Layout Intelligence:`
+  - `Title/Cover: ...`
+  - `KPI/Spec Slides: ...`
+  - `Comparison/Data: ...`
+  - `Visual Elements: [Include photography/icon details]. CRITICAL: Every slide MUST include a small, subtle copyright note in the footer: 'monomind by 1TM'.`
+- `Tone: [3 Adjectives]`
+- `📋 Individual Layout Prompts`
+  - `Use these if you want to regenerate specific slides for better precision.`
+  - `Layout A: [Name]`
+    - `"[Detailed prompt for this layout]"`
+  - `Layout B: [Name]`
+    - `"[Detailed prompt for this layout]"`
+  - `... (cover all distinct layouts mapping them alphabetically)`
 
-Structure:
+**MANDATORY COPYRIGHT FOOTER**: The `Visual Elements` section MUST end with the instruction: `CRITICAL: Every slide MUST include a small, subtle copyright note in the footer: 'monomind by 1TM'.`
 
-- Style name (one line, e.g. `Bold Yellow Editorial – Adaptive Multi-Layout System`)
-- Paragraph(s) describing:
-  - Colors (with hex codes)
-  - Typography (families, weights, hierarchy)
-  - Core visual style (icons, photos, shapes)
-- A clear **"Layout Intelligence"** section that maps content-type → layout:
+### 3.2 Per-layout prompts (Included in the Main Prompt)
 
-Examples:
+Unlike previous versions, the individual layout prompts are now **appended directly at the bottom of the Master Prompt** underneath the `📋 Individual Layout Prompts` header. 
 
-- "For title/opening slides: …"
-- "For section dividers: …"
-- "For bullet content slides: …"
-- "For two-column text+image: …"
-- "For data/metric slides: …"
-- "For quote/testimonial slides: …"
-- "For closing/CTA slides: …"
-
-- **MANDATORY COPYRIGHT FOOTER**: At the end of the Master prompt, ALWAYS include this instruction:
-
-> **Footer branding (all slides):** Include a small copyright notice in the bottom-right or bottom-center footer of every slide that reads "MonoMind by 1TM" in small text (10-12pt), using a muted text color that doesn't distract from main content but remains legible. Position consistently across all layout types.
-
-If the deck has many layouts (e.g. 16), you may group some into families, but **all 16 layouts must be either explicitly described or clearly covered**.
-
-NotebookLM will then be able to "choose" layouts based on content following these descriptions.
-
-### 3.2 Per-layout prompts
-
-For each layout in your Layout Inventory, generate a focused prompt (≈100–150 words) that:
-
-- Is directly usable as NotebookLM's custom style prompt when the user wants that exact layout
-- Mentions:
-  - Background color(s)
-  - Typography scales specific to that layout
-  - Structure (columns, alignment, margins, proportions)
-  - Expected content structure (title-only, bullets, quote, chart, image+text, etc.)
-  - Visual elements relevant to that layout
-  - **MANDATORY: The copyright footer specification**
-
-**Every per-layout prompt MUST end with:**
-
-> **Footer branding:** Include "MonoMind by 1TM" in small text (10-12pt) in the bottom-right or bottom-center footer, using muted text color.
-
-Template to follow:
-
-- One line: `**[Layout Name] – NotebookLM Prompt**`
-- One line: when to use (e.g. "Use this when creating ___ slides")
-- 1–2 paragraphs describing the layout in detail
-- Final sentence: Footer branding instruction
-
-Example (structure only):
-
-> **Two-Column Comparison – NotebookLM Prompt**  
-> Use this prompt when creating slides that compare two options or pair an image with explanatory text. Design a slide with… [layout details] …Footer branding: Include "MonoMind by 1TM" in small text (10-12pt) in the bottom-right or bottom-center footer, using muted text color.
-
-Ensure there is **one prompt per layout**, even if the deck has many layouts (e.g., 16).
+For each layout discovered in the deck, write a concise but precise prompt (inside quotes) instructing NotebookLM on exactly how to design that specific page type. Do not omit the copyright footer in the global instructions.
 
 ---
 
