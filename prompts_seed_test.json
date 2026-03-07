@@ -1,0 +1,28 @@
+[
+  {
+    "id": "ccb3a141-cdf5-4625-833f-1f3f272e4a40",
+    "title": "Advanced Blueprint",
+    "industry": "Semiconductor",
+    "type": "High-Tech Circuit Blueprint",
+    "colors": [
+      "#0a0e1a",
+      "#00d4ff",
+      "#0052cc"
+    ],
+    "cardBg": "linear-gradient(135deg, rgba(0,212,255,0.08), rgba(0,82,204,0.08))",
+    "template": "Role: Semiconductors Professional slide designer for industrial technology presentations\nAesthetic: \"Advanced Blueprint\" — A HUD-style technical presentation with a schematic feel.\n\nCore Design System:\n\nPalette: Deep Tech Black. Primary Text: Ice White. Secondary Text: Sub Blue Gray. Accents: Cyan Neon and Deep Blue.\n\nTypography: Massive, bold condensed sans-serif for titles. Standard sans-serif for body text. Monospace for KPIs.\n\nLayout Intelligence:\n\nTitle/Cover: Dark background with circuit pattern overlay and Cyan Neon Large Product/Process Name Typography.\n\nKPI/Spec Slides: HUD Style Process Specification Panel showcasing nm process, Transistor density, and power consumption figures prominently.\n\nComparison/Data: Side-by-side comparison of 5nm vs 3nm vs 2nm GAA performance figures by generation.\n\nVisual Elements: Cyan color overlay on close-up circuit board images, circuit pattern background graphics, and electron microscope semiconductor nanostructure imagery.\nCRITICAL: Every slide MUST include a small, subtle copyright note in the footer: 'monomind by 1TM'.\n\nTone: Precision / Innovative / Technical.\n\n📋 Individual Layout Prompts\nUse these if you want to regenerate specific slides for better precision.\n\nLayout A: The Hook (Title & Vision)\n\"Create a captivating title slide with a dark background, circuit pattern overlay, and a large Cyan Neon title that introduces the product or process name.\"\n\nLayout B: The Proof (KPIs & Revenue/Specs)\n\"Design a HUD-style slide that highlights key specifications such as nm process, transistor density, and power consumption figures in a visually striking manner.\"\n\nLayout C: The Strategy (Comparison/Options)\n\"Develop a comparison slide that clearly contrasts the performance figures of 5nm, 3nm, and 2nm GAA technologies side-by-side, emphasizing generational advancements.\""
+  },
+  {
+    "id": "51ac9b9f-9cb7-48ba-9d6d-1f992c255229",
+    "title": "Clean IR White",
+    "industry": "Semiconductor",
+    "type": "Investor Relations Clean White",
+    "colors": [
+      "#ffffff",
+      "#1a3a5c",
+      "#0071e3"
+    ],
+    "cardBg": "linear-gradient(135deg, #e8f2ff, #f0f7ff)",
+    "template": "Role: Semiconductors enterprise IR professional slide designer for institutional investor briefing sessions\nAesthetic: \"Clean IR White\" — A highly reliable and precise visual presentation for semiconductor industry analysts.\n\nCore Design System:\n\nPalette: White Background. Primary Text: Deep Navy. Secondary Text: Blue Gray. Accents: Intelligent Blue and Deep Navy Accents.\n\nTypography: Massive, bold condensed sans-serif for titles and numerical values. Clean sans-serif for body text.\n\nLayout Intelligence:\n\nTitle/Cover: White background with deep navy logo and blue bottom highlight bar. Include announcement date and material title.\n\nKPI/Spec Slides: Blue header table showcasing performance by process generation, electrical energy, and key yield indicators.\n\nComparison/Data: Symmetrical comparison diagram for 2nm, 3nm, and 5nm technology generations.\n\nVisual Elements: Clean room imagery with blue color overlay in fab manufacturing environments. Use technical architecture schematic diagrams and blue line art infographics on a white background. Include high-resolution 300mm wafer product photography.\nCRITICAL: Every slide MUST include a small, subtle copyright note in the footer: 'monomind by 1TM'.\n\nTone: Authoritative, data-driven, and trustworthy, reflecting a global semiconductor company that prioritizes trust and precision.\n\n📋 Individual Layout Prompts\nUse these if you want to regenerate specific slides for better precision.\n\nLayout A: The Hook (Title & Vision)\n\"Create a compelling title slide with a white background, deep navy logo, and a blue bottom highlight bar. Include the announcement date and material title to set the stage for the presentation.\"\n\nLayout B: The Proof (KPIs & Revenue/Specs)\n\"Design a spec slide with a blue header table to present performance by process generation, electrical energy, and key yield indicators. Ensure clarity and precision in the data presentation.\"\n\nLayout C: The Strategy (Comparison/Options)\n\"Develop a comparison slide featuring a symmetrical diagram for 2nm, 3nm, and 5nm technology generations. Highlight the differences and advancements in each generation for easy comparison.\""
+  }
+]
