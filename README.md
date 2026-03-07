@@ -19,7 +19,7 @@ Open `pages/NotebookLM Slide Prompts by MonoMind.html` in any modern web browser
 1. Browse the [Slide Design Prompts Library](https://slide-prompts.monomind.one) and select a category.
 2. Find an aesthetic or layout blueprint you like and click **Copy Prompt**.
 3. Paste the prompt into NotebookLM.
-4. **Customization Reminder**: You can freely customize the suggested **colors**, **fonts**, and **visual references** inside the copied prompt text to perfectly match your brand guidelines before generating your slides.
+4. **Make it yours!**: You can freely customize the suggested **colors**, **fonts**, and **visual references** inside the copied prompt text to perfectly match your brand guidelines before generating your slides.
 
 ## About Us
 
