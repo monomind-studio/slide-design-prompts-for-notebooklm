@@ -1,3 +1,3 @@
 // Root build entry point for Cloudflare Pages.
-// Delegates to the actual build script in scripts/build.js
-require('./scripts/build.js');
+// pages/generator.html is a static committed file — no generation needed.
+console.log('Build complete.');
