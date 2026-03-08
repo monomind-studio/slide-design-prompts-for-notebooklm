@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MonoMind | The AI & Product Agency for Future Leaders</title>
+    <title>About MonoMind | AI/AX · GTM · Growth</title>
     <link rel="icon" type="image/png" href="../assets/00_Logo_STD_bluebg.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link
@@ -30,9 +30,8 @@
             font-family: 'Playfair Display', serif;
         }
 
-        /* Monomind specific spacing and borders */
         .section-padding {
-            padding: 120px 2rem;
+            padding: 100px 2rem;
         }
 
         .grid-cell {
@@ -42,19 +41,30 @@
 
         .grid-cell:hover {
             background-color: rgba(255, 255, 255, 0.03);
-            border-color: rgba(255, 255, 255, 0.3);
+            border-color: rgba(255, 255, 255, 0.25);
         }
 
-        /* Smooth reveal animation */
         .reveal {
             opacity: 0;
-            transform: translateY(30px);
+            transform: translateY(24px);
             transition: all 0.8s ease-out;
         }
 
         .reveal.active {
             opacity: 1;
             transform: translateY(0);
+        }
+
+        .delay-100 {
+            transition-delay: 0.1s;
+        }
+
+        .delay-200 {
+            transition-delay: 0.2s;
+        }
+
+        .delay-300 {
+            transition-delay: 0.3s;
         }
 
         .nav-link {
@@ -84,33 +94,75 @@
         }
 
         .nav-scrolled {
-            background: rgba(0, 0, 0, 0.6);
+            background: rgba(0, 0, 0, 0.75);
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
             padding-top: 1.25rem !important;
             padding-bottom: 1.25rem !important;
         }
 
-        /* Custom selection color */
         ::selection {
             background: rgba(255, 255, 255, 0.99);
             color: black;
         }
+
+        .keyword-pill {
+            display: inline-block;
+            border: 0.5px solid rgba(255, 255, 255, 0.2);
+            padding: 6px 14px;
+            font-size: 0.65rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+        }
+
+        .keyword-pill:hover {
+            background: rgba(255, 255, 255, 0.06);
+            border-color: rgba(255, 255, 255, 0.4);
+        }
+
+        .offer-row {
+            border-bottom: 0.5px solid var(--border-color);
+            transition: all 0.35s ease;
+        }
+
+        .offer-row:hover {
+            background: rgba(255, 255, 255, 0.025);
+        }
+
+        .tag {
+            font-size: 0.6rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            border: 0.5px solid rgba(255, 255, 255, 0.15);
+            padding: 3px 9px;
+            color: #71717a;
+        }
+
+        .region-dot {
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background: white;
+            display: inline-block;
+            margin-right: 10px;
+            opacity: 0.4;
+        }
     </style>
 
     <meta name="description"
-        content="Enhance your AI-generated presentations with our curated library of premium slide design prompts. Perfect for Claude, NotebookLM, and AI agents.">
-    <meta property="og:title" content="Slide Design Prompts | MonoMind">
+        content="MonoMind is an AI-first advisory and execution partner for leaders who need clear direction and real delivery — AI/AX, GTM, and Growth across Taiwan, Korea, and Southeast Asia.">
+    <meta property="og:title" content="About MonoMind | AI/AX · GTM · Growth">
     <meta property="og:description"
-        content="Enhance your AI-generated presentations with our curated library of premium slide design prompts.">
+        content="MonoMind is an AI-first advisory and execution partner. AI/AX transformation, go-to-market execution, and growth systems for brands across Taiwan, Korea, and Southeast Asia.">
     <meta property="og:image" content="https://slide-prompts.monomind.one/assets/monomind.png">
-    <meta property="og:url" content="https://slide-prompts.monomind.one/">
+    <meta property="og:url" content="https://monomind.one">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Slide Design Prompts | MonoMind">
+    <meta name="twitter:title" content="About MonoMind | AI/AX · GTM · Growth">
     <meta name="twitter:description"
-        content="Enhance your AI-generated presentations with our curated library of premium slide design prompts.">
+        content="MonoMind is an AI-first advisory and execution partner — AI/AX, GTM, and Growth.">
     <meta name="twitter:image" content="https://slide-prompts.monomind.one/assets/monomind.png">
 </head>
 
@@ -125,30 +177,35 @@
             <img src="../assets/logo.svg" alt="Monomind" class="h-full" onerror="this.style.display='none'">
             <span class="text-xl font-black tracking-tighter uppercase">monomind</span>
         </a>
-        <div class="hidden md:flex space-x-12 items-center">
-            <a href="#work" class="nav-link">Work</a>
-            <a href="#process" class="nav-link">Process</a>
+        <div class="hidden md:flex space-x-10 items-center">
+            <a href="#solutions" class="nav-link">Solutions</a>
+            <a href="#where-we-excel" class="nav-link">Where We Excel</a>
             <a href="mailto:hello@monomind.one"
-                class="px-6 py-2 border border-white text-xs uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-500">Get
-                in touch</a>
+                class="px-6 py-2 border border-white text-xs uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-500">Book
+                a Consultation</a>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <section class="min-h-screen flex flex-col justify-center px-6 md:px-12">
         <div class="max-w-7xl">
-            <span class="inline-block text-xs uppercase tracking-[0.3em] mb-8 text-zinc-500 reveal">AI Systems / Growth
-                Execution / Market Expansion</span>
-            <h1 class="text-[12vw] md:text-[8vw] font-black leading-[0.9] tracking-tighter reveal delay-100">
-                YOUR HYBRID<br>
-                <span class="serif italic font-medium lowercase">Digital</span> PARTNER
+            <span class="inline-block text-xs uppercase tracking-[0.3em] mb-8 text-zinc-500 reveal">AI-First Advisory
+                &amp; Execution · Taiwan · Korea · Southeast Asia</span>
+            <h1 class="text-[11vw] md:text-[7.5vw] font-black leading-[0.88] tracking-tighter reveal delay-100">
+                AI/AX.<br>
+                <span class="serif italic font-medium lowercase">GTM.</span><br>
+                Growth.
             </h1>
             <div class="mt-12 flex flex-col md:flex-row md:items-end justify-between gap-8 reveal delay-200">
-                <p class="max-w-xl text-lg md:text-2xl font-light text-zinc-400 leading-tight">
-                    Monomind empowers businesses like yours to transform big ideas into reality. From strategy to design
-                    and tech, we've got you covered.
+                <p class="max-w-2xl text-lg md:text-xl font-light text-zinc-400 leading-relaxed">
+                    MonoMind is an AI-first advisory and execution partner for leaders who need clear direction and real
+                    delivery. We combine senior strategy with productized sprints — turning <strong
+                        class="text-white font-medium">AI/AX</strong>, <strong
+                        class="text-white font-medium">GTM</strong>, and
+                    <strong class="text-white font-medium">Growth</strong> plans into shipped systems and measurable
+                    outcomes.
                 </p>
-                <div class="flex items-center gap-4">
+                <div class="flex items-center gap-4 shrink-0">
                     <div
                         class="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center animate-pulse">
                         <div class="w-2 h-2 bg-white rounded-full"></div>
@@ -159,153 +216,414 @@
         </div>
     </section>
 
-    <!-- Expertise Section (Services) -->
-    <section id="work" class="section-padding border-t border-white/10">
-        <div class="mb-20 reveal">
-            <h2 class="text-xs uppercase tracking-[0.4em] text-zinc-500 mb-4">Our Expertise</h2>
-            <p class="text-4xl md:text-6xl font-bold tracking-tight">Future-Ready Solutions,<br><span
-                    class="serif italic font-normal">Today.</span></p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-            <!-- Service Cell -->
-            <div class="grid-cell p-10 md:p-16 flex flex-col justify-start min-h-[350px]">
-                <div>
-                    <h3 class="text-2xl font-bold mb-4">Artificial Intelligence Consulting</h3>
-                    <p class="text-zinc-400 font-light leading-relaxed">Integration of LLMs and custom Artificial
-                        Intelligence automation to streamline business logic and scale efficiency.</p>
-                </div>
-            </div>
-            <!-- Service Cell -->
-            <div class="grid-cell p-10 md:p-16 flex flex-col justify-start min-h-[350px]">
-                <div>
-                    <h3 class="text-2xl font-bold mb-4">Web3 & Blockchain</h3>
-                    <p class="text-zinc-400 font-light leading-relaxed">Embrace the decentralized future with blockchain
-                        technology, smart contracts, and tokenomics.</p>
-                </div>
-            </div>
-            <!-- Service Cell -->
-            <div class="grid-cell p-10 md:p-16 flex flex-col justify-start min-h-[350px]">
-                <div>
-                    <h3 class="text-2xl font-bold mb-4">D2C E-commerce</h3>
-                    <p class="text-zinc-400 font-light leading-relaxed">Direct-to-consumer strategies that build strong
-                        brand loyalty and optimize conversion funnels.</p>
-                </div>
-            </div>
-            <!-- Service Cell -->
-            <div class="grid-cell p-10 md:p-16 flex flex-col justify-start min-h-[350px]">
-                <div>
-                    <h3 class="text-2xl font-bold mb-4">Digital Strategy</h3>
-                    <p class="text-zinc-400 font-light leading-relaxed">Comprehensive roadmaps designed to keep your
-                        business agile and ahead of the curve.</p>
-                </div>
-            </div>
-            <!-- Service Cell -->
-            <div class="grid-cell p-10 md:p-16 flex flex-col justify-start min-h-[350px]">
-                <div>
-                    <h3 class="text-2xl font-bold mb-4">Software on Demand</h3>
-                    <p class="text-zinc-400 font-light leading-relaxed">Custom development squads ready to build, ship,
-                        and scale your product at record speed.</p>
-                </div>
-            </div>
-            <!-- Service Cell -->
-            <div class="grid-cell p-10 md:p-16 flex flex-col justify-start min-h-[350px]">
-                <div>
-                    <h3 class="text-2xl font-bold mb-4">Creator Economy</h3>
-                    <p class="text-zinc-400 font-light leading-relaxed">Empowering the new generation of creators with
-                        tools for sustainable growth and engagement.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Process Section -->
-    <section id="process" class="bg-white text-black section-padding">
+    <!-- Three Keywords Section -->
+    <section class="section-padding border-t border-white/10">
         <div class="max-w-7xl mx-auto">
-            <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-32 gap-8">
-                <h2 class="text-6xl md:text-8xl font-black tracking-tighter">OUR<br>PROCESS</h2>
-                <p class="max-w-sm text-xl font-medium leading-tight">Your vision is not just understood; it's
-                    accelerated.</p>
+            <div class="mb-16 reveal">
+                <h2 class="text-xs uppercase tracking-[0.4em] text-zinc-500 mb-4">What We Do</h2>
+                <p class="text-4xl md:text-5xl font-bold tracking-tight">Practical, measurable,<br><span
+                        class="serif italic font-normal">end to end.</span></p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-32">
+            <div class="grid grid-cols-1 md:grid-cols-3">
+                <!-- AI/AX -->
+                <div class="grid-cell p-10 md:p-14 flex flex-col justify-between min-h-[340px] reveal">
+                    <div>
+                        <span class="tag mb-6 inline-block">01</span>
+                        <h3 class="text-3xl font-black tracking-tight mb-5">AI/AX</h3>
+                        <p class="text-zinc-400 font-light leading-relaxed">AI adoption and operational transformation.
+                            Strategy, systems, workflow automation, and AI adoption roadmaps — built for real
+                            implementation, not theory.</p>
+                    </div>
+                    <div class="mt-8">
+                        <span class="keyword-pill">Transformation</span>
+                        <span class="keyword-pill ml-2">Automation</span>
+                    </div>
+                </div>
+                <!-- GTM -->
+                <div class="grid-cell p-10 md:p-14 flex flex-col justify-between min-h-[340px] reveal delay-100">
+                    <div>
+                        <span class="tag mb-6 inline-block">02</span>
+                        <h3 class="text-3xl font-black tracking-tight mb-5">GTM</h3>
+                        <p class="text-zinc-400 font-light leading-relaxed">Go-to-market execution with precision.
+                            Market entry, launch strategy, positioning, and channel planning for brands moving fast
+                            across Asia.</p>
+                    </div>
+                    <div class="mt-8">
+                        <span class="keyword-pill">Market Entry</span>
+                        <span class="keyword-pill ml-2">Launch</span>
+                    </div>
+                </div>
+                <!-- Growth -->
+                <div class="grid-cell p-10 md:p-14 flex flex-col justify-between min-h-[340px] reveal delay-200">
+                    <div>
+                        <span class="tag mb-6 inline-block">03</span>
+                        <h3 class="text-3xl font-black tracking-tight mb-5">Growth</h3>
+                        <p class="text-zinc-400 font-light leading-relaxed">Sustained scaling through systems that
+                            compound over time. Growth retainers, retention, performance optimization, and execution
+                            rhythm.</p>
+                    </div>
+                    <div class="mt-8">
+                        <span class="keyword-pill">Systems</span>
+                        <span class="keyword-pill ml-2">Retainers</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="section-padding border-t border-white/10">
+        <div class="max-w-7xl mx-auto">
+            <div class="mb-16 reveal">
+                <h2 class="text-xs uppercase tracking-[0.4em] text-zinc-500 mb-4">Offer Architecture</h2>
+                <p class="text-4xl md:text-5xl font-bold tracking-tight">Two ways to<br><span
+                        class="serif italic font-normal">engage.</span></p>
+            </div>
+
+            <!-- Flagship Engagements -->
+            <div class="mb-2 reveal">
+                <p class="text-xs uppercase tracking-[0.3em] text-zinc-600 mb-6 pt-2">Layer 1 — Flagship Engagements</p>
+            </div>
+
+            <div class="border-t border-white/10 reveal">
+                <div class="offer-row px-0 py-8 flex flex-col md:flex-row md:items-start gap-6">
+                    <div class="md:w-56 shrink-0">
+                        <p class="font-bold text-lg tracking-tight">AX Accelerator</p>
+                        <p class="text-xs text-zinc-600 mt-1 uppercase tracking-widest">4 Weeks · From $15,000</p>
+                    </div>
+                    <div class="flex-1">
+                        <p class="text-zinc-400 font-light leading-relaxed text-sm md:text-base">Clarity and a 90-day
+                            plan before heavy AI/AX investment. Includes leadership workshop, workflow audit, AI
+                            opportunity map prioritized by ROI, and an executive-ready roadmap.</p>
+                    </div>
+                    <div class="shrink-0">
+                        <span class="tag">AI/AX</span>
+                    </div>
+                </div>
+                <div class="offer-row px-0 py-8 flex flex-col md:flex-row md:items-start gap-6">
+                    <div class="md:w-56 shrink-0">
+                        <p class="font-bold text-lg tracking-tight">AI Operator-in-Residence</p>
+                        <p class="text-xs text-zinc-600 mt-1 uppercase tracking-widest">Retainer · From $10k/mo</p>
+                    </div>
+                    <div class="flex-1">
+                        <p class="text-zinc-400 font-light leading-relaxed text-sm md:text-base">Ongoing strategic
+                            AI/AX leadership without a full-time hire. Biweekly strategy calls, Slack/LINE advisory,
+                            monthly KPI reviews, vendor evaluation, and internal enablement.</p>
+                    </div>
+                    <div class="shrink-0">
+                        <span class="tag">AI/AX</span>
+                    </div>
+                </div>
+                <div class="offer-row px-0 py-8 flex flex-col md:flex-row md:items-start gap-6">
+                    <div class="md:w-56 shrink-0">
+                        <p class="font-bold text-lg tracking-tight">Growth Systems Retainer</p>
+                        <p class="text-xs text-zinc-600 mt-1 uppercase tracking-widest">3–6 Months · From $12k/mo</p>
+                    </div>
+                    <div class="flex-1">
+                        <p class="text-zinc-400 font-light leading-relaxed text-sm md:text-base">Tie AI and operations
+                            to marketing and growth execution. Monthly sprints, AI-assisted campaign systems, marketing
+                            ops improvements, and quarterly strategic reviews.</p>
+                    </div>
+                    <div class="shrink-0">
+                        <span class="tag">GTM · Growth</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Productized Offers -->
+            <div class="mt-20 mb-2 reveal">
+                <p class="text-xs uppercase tracking-[0.3em] text-zinc-600 mb-6 pt-2">Layer 2 — Productized Fast Starts
+                </p>
+            </div>
+
+            <div class="border-t border-white/10 reveal">
+                <div class="offer-row px-0 py-8 flex flex-col md:flex-row md:items-start gap-6">
+                    <div class="md:w-56 shrink-0">
+                        <p class="font-bold text-lg tracking-tight">7-Day AI Agent Team</p>
+                        <p class="text-xs text-zinc-600 mt-1 uppercase tracking-widest">7 Days · From $4,500</p>
+                    </div>
+                    <div class="flex-1">
+                        <p class="text-zinc-400 font-light leading-relaxed text-sm md:text-base">Deploy a functional
+                            AI agent team in 7 business days. Multi-agent setup, knowledge base, prompt engineering,
+                            and full handoff documentation.</p>
+                    </div>
+                    <div class="shrink-0">
+                        <span class="tag">AI/AX</span>
+                    </div>
+                </div>
+                <div class="offer-row px-0 py-8 flex flex-col md:flex-row md:items-start gap-6">
+                    <div class="md:w-56 shrink-0">
+                        <p class="font-bold text-lg tracking-tight">14-Day MVP Launch</p>
+                        <p class="text-xs text-zinc-600 mt-1 uppercase tracking-widest">14 Days · From $7,500</p>
+                    </div>
+                    <div class="flex-1">
+                        <p class="text-zinc-400 font-light leading-relaxed text-sm md:text-base">Launch a testable MVP
+                            for early validation or investor conversations. Core user flow, lightweight UI, analytics
+                            setup, and a Loom handoff walkthrough.</p>
+                    </div>
+                    <div class="shrink-0">
+                        <span class="tag">GTM</span>
+                    </div>
+                </div>
+                <div class="offer-row px-0 py-8 flex flex-col md:flex-row md:items-start gap-6">
+                    <div class="md:w-56 shrink-0">
+                        <p class="font-bold text-lg tracking-tight">AI Workflow Sprint</p>
+                        <p class="text-xs text-zinc-600 mt-1 uppercase tracking-widest">10–14 Days · From $6,000</p>
+                    </div>
+                    <div class="flex-1">
+                        <p class="text-zinc-400 font-light leading-relaxed text-sm md:text-base">Implement one
+                            meaningful AI workflow or automation to prove internal value. One custom agent, full testing
+                            and documentation, team handoff training.</p>
+                    </div>
+                    <div class="shrink-0">
+                        <span class="tag">AI/AX</span>
+                    </div>
+                </div>
+                <div class="offer-row px-0 py-8 flex flex-col md:flex-row md:items-start gap-6">
+                    <div class="md:w-56 shrink-0">
+                        <p class="font-bold text-lg tracking-tight">Brand Launch Site in 7 Days</p>
+                        <p class="text-xs text-zinc-600 mt-1 uppercase tracking-widest">7 Days · From $5,000</p>
+                    </div>
+                    <div class="flex-1">
+                        <p class="text-zinc-400 font-light leading-relaxed text-sm md:text-base">Fast, premium web
+                            presence for founders, campaigns, and product launches. Messaging refinement,
+                            conversion-focused layout, CMS, forms, and analytics.</p>
+                    </div>
+                    <div class="shrink-0">
+                        <span class="tag">GTM</span>
+                    </div>
+                </div>
+                <div class="offer-row px-0 py-8 flex flex-col md:flex-row md:items-start gap-6">
+                    <div class="md:w-56 shrink-0">
+                        <p class="font-bold text-lg tracking-tight">AI Native Website</p>
+                        <p class="text-xs text-zinc-600 mt-1 uppercase tracking-widest">5–7 Days · From $6,000</p>
+                    </div>
+                    <div class="flex-1">
+                        <p class="text-zinc-400 font-light leading-relaxed text-sm md:text-base">A fully AI-powered
+                            website — from content generation to design to deployment. AI-assisted copy, generated
+                            design system, responsive build, SEO, and analytics.</p>
+                    </div>
+                    <div class="shrink-0">
+                        <span class="tag">AI/AX · GTM</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Where We Excel -->
+    <section id="where-we-excel" class="bg-white text-black section-padding">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-24 gap-8">
+                <div>
+                    <p class="text-xs uppercase tracking-[0.4em] text-zinc-500 mb-4">Region × Vertical</p>
+                    <h2 class="text-5xl md:text-7xl font-black tracking-tighter leading-none">WHERE<br>WE EXCEL</h2>
+                </div>
+                <p class="max-w-sm text-lg font-light leading-relaxed text-zinc-600">We don't generalize. We go deep
+                    where region meets vertical — earned context that generic firms can't replicate.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-0 border-t border-black/10">
+                <!-- Region -->
+                <div class="reveal border-b md:border-b-0 md:border-r border-black/10 p-10 md:p-14">
+                    <p class="text-xs uppercase tracking-[0.3em] text-zinc-500 mb-6">Region</p>
+                    <h3 class="text-2xl font-black mb-6 tracking-tight">Taiwan · Korea · SEA</h3>
+                    <p class="text-zinc-600 font-light leading-relaxed text-sm">Deep market fluency in Taiwan and
+                        Korea. Growing coverage of Southeast Asia. We understand how brands localize, how channels
+                        differ, and how to build growth systems that work across these markets.</p>
+                    <div class="mt-8 space-y-2">
+                        <p class="text-xs text-zinc-500 flex items-center"><span class="region-dot"></span>GTM: Market
+                            entry, localization, channel strategy</p>
+                        <p class="text-xs text-zinc-500 flex items-center"><span class="region-dot"></span>Growth:
+                            Retention systems, expansion execution</p>
+                    </div>
+                </div>
+                <!-- Vertical -->
+                <div class="reveal delay-100 border-b md:border-b-0 md:border-r border-black/10 p-10 md:p-14">
+                    <p class="text-xs uppercase tracking-[0.3em] text-zinc-500 mb-6">Vertical</p>
+                    <h3 class="text-2xl font-black mb-6 tracking-tight">Gaming · SaaS · Consumer · Creators</h3>
+                    <p class="text-zinc-600 font-light leading-relaxed text-sm">Launch and growth plays across the
+                        most competitive verticals in Asia. Gaming GTM in Taiwan. SaaS scaling in APAC. Consumer brand
+                        campaigns. Creator partnership programs.</p>
+                    <div class="mt-8 space-y-2">
+                        <p class="text-xs text-zinc-500 flex items-center"><span class="region-dot"></span>GTM: Launch
+                            strategy, audience acquisition, positioning</p>
+                        <p class="text-xs text-zinc-500 flex items-center"><span class="region-dot"></span>Growth:
+                            Monetization, creator ecosystems</p>
+                    </div>
+                </div>
+                <!-- Fast Traction -->
+                <div class="reveal delay-200 p-10 md:p-14">
+                    <p class="text-xs uppercase tracking-[0.3em] text-zinc-500 mb-6">Fast Traction</p>
+                    <h3 class="text-2xl font-black mb-6 tracking-tight">Startups &amp; Local Businesses</h3>
+                    <p class="text-zinc-600 font-light leading-relaxed text-sm">For startups and local businesses that
+                        need to move fast without the overhead of a flagship engagement. Productized offers are the
+                        right starting point — clear scope, fixed timeline, immediate value.</p>
+                    <div class="mt-8 space-y-2">
+                        <p class="text-xs text-zinc-500 flex items-center"><span class="region-dot"></span>Productized
+                            Offers: Ship fast, prove value, scale</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ready Creator One -->
+    <section class="section-padding border-t border-white/10">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
                 <div class="reveal">
-                    <span class="text-sm font-bold block mb-4">01</span>
-                    <h4 class="text-3xl font-bold mb-6 serif italic lowercase">Understanding</h4>
-                    <p class="text-zinc-600 leading-relaxed">We conduct in-depth research to understand your business,
-                        target audience, and industry landscapes.</p>
+                    <p class="text-xs uppercase tracking-[0.4em] text-zinc-500 mb-4">Community &amp; Education</p>
+                    <h2 class="text-4xl md:text-5xl font-black tracking-tight leading-tight mb-8">Ready<br><span
+                            class="serif italic font-medium">Creator One</span></h2>
+                    <p class="text-zinc-400 font-light leading-relaxed mb-8">
+                        <strong class="text-white font-medium">Ready Creator One</strong> (readycreator.one) is
+                        MonoMind's community and education platform. It fuels community-led growth, reputation, and
+                        scalable revenue — and serves as the entry ramp into higher-ticket advisory work.
+                    </p>
+                    <a href="https://readycreator.one" target="_blank" rel="noopener noreferrer"
+                        class="inline-block px-6 py-3 border border-white/30 text-xs uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-500">
+                        Visit readycreator.one →
+                    </a>
                 </div>
-                <div class="reveal delay-100">
-                    <span class="text-sm font-bold block mb-4">02</span>
-                    <h4 class="text-3xl font-bold mb-6 serif italic lowercase">Planning</h4>
-                    <p class="text-zinc-600 leading-relaxed">We create a custom strategy with clear goals, actionable
-                        metrics, and a plan for market success.</p>
-                </div>
-                <div class="reveal delay-200">
-                    <span class="text-sm font-bold block mb-4">03</span>
-                    <h4 class="text-3xl font-bold mb-6 serif italic lowercase">Delivery</h4>
-                    <p class="text-zinc-600 leading-relaxed">We deliver exceptional solutions, from concept to launch,
-                        using cutting-edge tech and best practices.</p>
+                <div class="reveal delay-100 space-y-0 border border-white/10">
+                    <div class="p-8 border-b border-white/10 hover:bg-white/[0.02] transition-colors">
+                        <p class="text-xs uppercase tracking-widest text-zinc-600 mb-2">RC1 Playbooks · $49–299</p>
+                        <p class="font-bold mb-2">Digital Guides &amp; Templates</p>
+                        <p class="text-zinc-500 text-sm font-light">AI Workflow Audit Kits, MVP Planning Guides,
+                            Taiwan/Korea GTM Checklists — entry-level resources and lead qualifiers.</p>
+                    </div>
+                    <div class="p-8 border-b border-white/10 hover:bg-white/[0.02] transition-colors">
+                        <p class="text-xs uppercase tracking-widest text-zinc-600 mb-2">RC1 Workshops · $150–$6k</p>
+                        <p class="font-bold mb-2">Live Sessions</p>
+                        <p class="text-zinc-500 text-sm font-light">90-minute to half-day sessions — public or private.
+                            AI workflows, MVP scoping, Taiwan market entry, Gaming GTM strategy.</p>
+                    </div>
+                    <div class="p-8 hover:bg-white/[0.02] transition-colors">
+                        <p class="text-xs uppercase tracking-widest text-zinc-600 mb-2">RC1 Cohorts · $1,000–$3,500</p>
+                        <p class="font-bold mb-2">Guided Programs</p>
+                        <p class="text-zinc-500 text-sm font-light">2–6 week implementation cohorts. Build your first AI
+                            workflow, launch your MVP, or run a Taiwan/Korea expansion sprint.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Stats -->
-    <section class="section-padding">
-        <div class="grid grid-cols-2 lg:grid-cols-4 gap-12">
-            <div class="reveal">
-                <p class="text-6xl font-bold mb-2 tracking-tighter">10+</p>
-                <p class="text-xs uppercase tracking-widest text-zinc-500">Avg. years in industry</p>
+    <!-- Why MonoMind / Differentiation -->
+    <section class="section-padding border-t border-white/10">
+        <div class="max-w-7xl mx-auto">
+            <div class="mb-16 reveal">
+                <h2 class="text-xs uppercase tracking-[0.4em] text-zinc-500 mb-4">Why MonoMind</h2>
+                <p class="text-4xl md:text-5xl font-bold tracking-tight">Senior judgment.<br><span
+                        class="serif italic font-normal">Hands-on delivery.</span></p>
             </div>
-            <div class="reveal delay-100">
-                <p class="text-6xl font-bold mb-2 tracking-tighter">200+</p>
-                <p class="text-xs uppercase tracking-widest text-zinc-500">Brands empowered</p>
-            </div>
-            <div class="reveal delay-200">
-                <p class="text-6xl font-bold mb-2 tracking-tighter">500+</p>
-                <p class="text-xs uppercase tracking-widest text-zinc-500">Creators Guided</p>
-            </div>
-            <div class="reveal delay-300">
-                <p class="text-6xl font-bold mb-2 tracking-tighter">10+</p>
-                <p class="text-xs uppercase tracking-widest text-zinc-500">Platforms Launched</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-0">
+                <div class="grid-cell p-10 md:p-14 reveal">
+                    <p class="text-xs uppercase tracking-widest text-zinc-600 mb-4">High-Ticket Focus</p>
+                    <h3 class="text-xl font-bold mb-4">Fewer, more serious clients</h3>
+                    <p class="text-zinc-400 font-light leading-relaxed text-sm">We operate at the high-ticket end of
+                        the market — maximizing time ROI, creating strong cash flow, and building authority from
+                        working with caliber clients who demand real outcomes.</p>
+                </div>
+                <div class="grid-cell p-10 md:p-14 reveal delay-100">
+                    <p class="text-xs uppercase tracking-widest text-zinc-600 mb-4">Domain Depth</p>
+                    <h3 class="text-xl font-bold mb-4">Region × Vertical expertise</h3>
+                    <p class="text-zinc-400 font-light leading-relaxed text-sm">We don't serve all industries equally.
+                        We go deep where region and vertical expertise compounds — Taiwan, Korea, SEA across Gaming,
+                        SaaS, Consumer, and Creator ecosystems.</p>
+                </div>
+                <div class="grid-cell p-10 md:p-14 reveal delay-100">
+                    <p class="text-xs uppercase tracking-widest text-zinc-600 mb-4">Speed &amp; Clarity</p>
+                    <h3 class="text-xl font-bold mb-4">Productized for momentum</h3>
+                    <p class="text-zinc-400 font-light leading-relaxed text-sm">Fixed-scope, time-bound offers reduce
+                        friction and prove value quickly. From 7-day AI agent deployments to 14-day MVP launches — clear
+                        scope, defined outcomes, fast starts.</p>
+                </div>
+                <div class="grid-cell p-10 md:p-14 reveal">
+                    <p class="text-xs uppercase tracking-widest text-zinc-600 mb-4">Education as Leverage</p>
+                    <h3 class="text-xl font-bold mb-4">Knowledge that scales</h3>
+                    <p class="text-zinc-400 font-light leading-relaxed text-sm">Ready Creator One turns proven
+                        frameworks and playbooks into repeatable leverage — growing community, feeding higher-ticket
+                        work, and monetizing what we know at scale.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Discreet Proof -->
+    <section class="section-padding border-t border-white/10">
+        <div class="max-w-7xl mx-auto">
+            <div class="mb-16 reveal">
+                <h2 class="text-xs uppercase tracking-[0.4em] text-zinc-500 mb-4">Outcomes</h2>
+                <p class="text-4xl md:text-5xl font-bold tracking-tight">Proven in the<br><span
+                        class="serif italic font-normal">field.</span></p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-0 border-t border-white/10 reveal">
+                <div class="border-b md:border-b-0 md:border-r border-white/10 p-10 md:p-12">
+                    <p class="text-xs uppercase tracking-widest text-zinc-600 mb-3">AI/AX</p>
+                    <p class="font-medium mb-4 leading-snug">AI/AX roadmap for an operations-led consumer brand — 90-day
+                        plan, tool stack selected, pilot shipped.</p>
+                    <p class="text-xs text-zinc-600">Established Brand · Taiwan</p>
+                </div>
+                <div class="border-b md:border-b-0 md:border-r border-white/10 p-10 md:p-12">
+                    <p class="text-xs uppercase tracking-widest text-zinc-600 mb-3">GTM</p>
+                    <p class="font-medium mb-4 leading-snug">Market entry strategy for a gaming publisher expanding from
+                        Taiwan into Southeast Asia.</p>
+                    <p class="text-xs text-zinc-600">Gaming · Regional Expansion</p>
+                </div>
+                <div class="p-10 md:p-12">
+                    <p class="text-xs uppercase tracking-widest text-zinc-600 mb-3">Growth</p>
+                    <p class="font-medium mb-4 leading-snug">Growth systems retainer for a SaaS team — growth metrics
+                        framework, acquisition prioritization, 90-day execution roadmap.</p>
+                    <p class="text-xs text-zinc-600">SaaS · APAC</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Footer -->
     <footer id="contact" class="section-padding border-t border-white/10">
         <div class="flex flex-col md:flex-row justify-between items-start gap-16">
             <div class="max-w-2xl">
-                <h2 class="text-5xl md:text-7xl font-bold tracking-tighter leading-none mb-12">READY TO MAKE<br>YOUR
-                    VISION REAL</h2>
+                <p class="text-xs uppercase tracking-[0.3em] text-zinc-600 mb-6">Book a Private Consultation</p>
+                <h2 class="text-5xl md:text-7xl font-bold tracking-tighter leading-none mb-12">READY FOR<br>REAL
+                    DELIVERY?</h2>
                 <a href="mailto:hello@monomind.one"
                     class="text-2xl md:text-4xl font-light hover:text-zinc-400 transition-colors border-b border-white/20 pb-4">hello@monomind.one</a>
+                <div class="mt-8 flex items-center gap-4">
+                    <a href="https://monomind.one" target="_blank" rel="noopener noreferrer"
+                        class="text-xs uppercase tracking-widest text-zinc-500 hover:text-white transition-colors border-b border-white/10 pb-1">monomind.one
+                        →</a>
+                    <span class="text-zinc-700">·</span>
+                    <a href="https://readycreator.one" target="_blank" rel="noopener noreferrer"
+                        class="text-xs uppercase tracking-widest text-zinc-500 hover:text-white transition-colors border-b border-white/10 pb-1">readycreator.one
+                        →</a>
+                </div>
             </div>
         </div>
         <div
             class="mt-32 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between text-[10px] uppercase tracking-widest text-zinc-600">
-            <span>© 2026 MONOMIND by 1TM, The Artificial Intelligence Agency</span>
+            <span>© 2026 MonoMind · AI/AX · GTM · Growth · Taiwan · Korea · Southeast Asia</span>
         </div>
     </footer>
 
     <script>
-        // Simple Scroll Reveal Logic
-        const observerOptions = {
-            threshold: 0.1
-        };
-
+        // Scroll Reveal
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('active');
                 }
             });
-        }, observerOptions);
+        }, { threshold: 0.08 });
 
         document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
-        // Scroll Logic for Navigation
+        // Nav scroll effect
         const nav = document.getElementById('main-nav');
         window.addEventListener('scroll', () => {
             if (window.scrollY > 50) {
